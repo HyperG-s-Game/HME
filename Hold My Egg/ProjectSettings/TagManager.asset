@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Egg
+  - Branch
+  - Walls
+  - Wall
+  - Ground
+  - Movement Area
+  - BowlObject
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Blue Bowl
+  - Red Bowl
+  - Green Bowl
+  - White Bowl
+  - Blue Egg
+  - Red Egg
+  - Green Egg
+  - White Egg
+  - Coin
+  - Obstacle
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Back Ground
+    uniqueID: 2222819127
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Fore Ground
+    uniqueID: 4153622517
+    locked: 0

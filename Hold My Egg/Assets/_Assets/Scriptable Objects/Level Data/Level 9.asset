@@ -1,0 +1,37 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f8e70afe1fa21f408b74831e9a33287, type: 3}
+  m_Name: Level 9
+  m_EditorClassIdentifier: 
+  sceneIndex: 11
+  levelBowlsType: 03000000
+  bowlsList:
+  - {fileID: 6766476320950532291, guid: faaac8af9d803a347a7ce72d5749910e, type: 3}
+  - {fileID: 6766476320950532291, guid: faaac8af9d803a347a7ce72d5749910e, type: 3}
+  - {fileID: 1917814888860158182, guid: 8383c769b97e26c40941a165e40e2bce, type: 3}
+  - {fileID: 6766476320950532291, guid: faaac8af9d803a347a7ce72d5749910e, type: 3}
+  - {fileID: 6766476320950532291, guid: 451544ad438cc2340844f2c12ca741ed, type: 3}
+  - {fileID: 6766476320950532291, guid: faaac8af9d803a347a7ce72d5749910e, type: 3}
+  - {fileID: 6766476320950532291, guid: faaac8af9d803a347a7ce72d5749910e, type: 3}
+  - {fileID: 6766476320950532291, guid: faaac8af9d803a347a7ce72d5749910e, type: 3}
+  - {fileID: 6766476320950532291, guid: faaac8af9d803a347a7ce72d5749910e, type: 3}
+  - {fileID: 6766476320950532291, guid: faaac8af9d803a347a7ce72d5749910e, type: 3}
+  - {fileID: 6766476320950532291, guid: faaac8af9d803a347a7ce72d5749910e, type: 3}
+  - {fileID: 1917814888860158182, guid: b68552acc48136e43a881f6988c0b4b0, type: 3}
+  - {fileID: 6766476320950532291, guid: faaac8af9d803a347a7ce72d5749910e, type: 3}
+  - {fileID: 6766476320950532291, guid: faaac8af9d803a347a7ce72d5749910e, type: 3}
+  - {fileID: 6766476320950532291, guid: faaac8af9d803a347a7ce72d5749910e, type: 3}
+  minBowlSpeed: 0.5
+  maxBowlSpeed: 0.8
+  levelSaveData:
+    playerDeathCount: 0
+    isCompleted: 0
