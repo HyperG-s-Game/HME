@@ -49,9 +49,6 @@ namespace WolfGamer.Hold_My_Eggs
         private UImanager uImanager;
 
         private Egg egg;
-
-        // private AdManager adManager;
-        private AdController adController;
         private bool isGameOver, isGameStart, isWinn, isLoos;
         private bool hasAddInGame;
 
@@ -78,7 +75,7 @@ namespace WolfGamer.Hold_My_Eggs
         private void Start(){
             // Getting the Refernce to the Ad Manager and Ui Manager.
             // adManager = AdManager.current;
-            adController = AdController.instance;
+            
             uImanager = UImanager.imanager;
             // Localization for the Levels Scene..
             localization.CurrentLanguage = languageArray[settingsSO.settingsData.currentLanguageIndex];
@@ -92,7 +89,7 @@ namespace WolfGamer.Hold_My_Eggs
             uImanager.SetLiveCount(maxReviveCount);
             StartCoroutine(nameof(StartGameRoutine));
 
-            if (adController.IsRewardedAdLoaded()){
+            if (AdController.instance.IsRewardedAdLoaded()){
                 SetCanShowAd(true);
                 SetShowingAd(false);
             }
@@ -197,6 +194,8 @@ namespace WolfGamer.Hold_My_Eggs
                 {string.Concat("Level win",levelData.sceneIndex),isWinn},
                 {string.Concat("Level Loos",levelData.sceneIndex),isLoos},
             });
+            ShowInterstetialAds();
+            AdController.instance.RequestBanner();
             Debug.Log(result + " from " + this.name);
         }
 
@@ -260,7 +259,7 @@ namespace WolfGamer.Hold_My_Eggs
                 isLoos = true;
             }
 
-            ShowInterstetialAds();
+            
             levelData.SetLevelComplete(isWinn);
             LevelLoader.instance.UpdateLevelData(levelData);
             StartMovingBowls(false);
@@ -273,7 +272,7 @@ namespace WolfGamer.Hold_My_Eggs
                 if(hasAddInGame){
                     // Shwoing Interstetial Ads if game has any ads...
                     // No premium Membership is purchased..
-                    adController.ShowInterstitialAd();
+                    AdController.instance.ShowInterstitialAd();
                 }
             }
             AnalyticsResult result = Analytics.CustomEvent("Ad Data",new Dictionary<string,object>{
@@ -282,9 +281,12 @@ namespace WolfGamer.Hold_My_Eggs
             });
         }
 
+
         public void NextLevel(){
             // Move to Next Level...
-            LevelLoader.instance.MoveToNextLevel();
+            AdController.levelRewardAd = true;
+            AdController.instance.ShowRewardedAd();
+            // LevelLoader.instance.MoveToNextLevel();
             Firebaseanayltics.current.SetPlayerDeathCount(levelData.levelSaveData.playerDeathCount);
 
             int levelNumber = (int)levelData.sceneIndex;
@@ -351,6 +353,9 @@ namespace WolfGamer.Hold_My_Eggs
         }
         public void IncreasePlayerDeath(int count){
             levelData.SetDeathCount(count);
+        }
+        private void OnDestroy(){
+            AdController.instance.HideBanner();
         }
 
         #endregion

@@ -3,7 +3,6 @@ using UnityEngine;
 using UnityEngine.UI;
 using Lean.Localization;
 using System.Collections;
-using Google.Play.Review;
 
 
 

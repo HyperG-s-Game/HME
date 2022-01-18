@@ -37,14 +37,12 @@ public class TACanvasController : MonoBehaviour{
         onAgree?.Invoke();
     }
 
-    private void EnableCanvas()
-    {
+    private void EnableCanvas(){
         adConsentCanvas.SetActive(true);
         mainMenuObject.SetActive(false);
     }
 
-    private void OnEnable()
-    {
+    private void OnEnable(){
         onAgree += EnableCanvas;
     }
 
@@ -56,13 +54,12 @@ public class TACanvasController : MonoBehaviour{
         PlayerPrefs.SetInt("npa", 0);
         UnityAds.SetGDPRConsentMetaData(true);
         Vungle.UpdateConsentStatus(VungleConsent.ACCEPTED);
-        FindObjectOfType<AdController>().InitializeSdk();
+        AdController.instance.InitializeSdk();
         mainMenuObject.SetActive(true);
         adConsentCanvas.SetActive(false);
     }
     
-    public void TermsAndCondition()
-    {
+    public void TermsAndCondition(){
         Application.OpenURL("http://playresume.in/privacy_policy.html");
     }
 }

@@ -34,7 +34,7 @@ namespace WolfGamer.Utils{
                 Debug.unityLogger.logEnabled = true;
             #else
                 Application.targetFrameRate = 60;
-                // Debug.unityLogger.logEnabled = false;
+                Debug.unityLogger.logEnabled = false;
             #endif
             
             if(instance == null){

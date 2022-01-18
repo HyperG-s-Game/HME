@@ -5129,8 +5129,8 @@ MonoBehaviour:
   gfxEggCrack_2: {fileID: 128670106050363951}
   liveGFXrenderer: {fileID: 6252409132858561491}
   deadGFXrenderer: {fileID: 1262936705964025794}
-  maxRayDistanceDown: 0.4
-  maxRayDistanceUP: 0.4
+  maxRayDistanceDown: 0.35
+  maxRayDistanceUP: 0.35
   coinMask:
     serializedVersion: 2
     m_Bits: 16384

@@ -56,6 +56,7 @@ namespace WolfGamer.Hold_My_Eggs{
         private int adWatchCount = 0;
         public void ShowRewardedAd(){
             adWatchCount++;
+            AdController.extraEgg = true;
             AdController.instance.ShowRewardedAd();
             AnalyticsResult result = Analytics.CustomEvent("Ad Data",new Dictionary<string,object>{
                 {"Rewarded Ads",adWatchCount},
