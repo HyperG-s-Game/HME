@@ -8,10 +8,8 @@ using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 
 
-namespace WolfGamer.Hold_My_Eggs
-{
-    public class GameHandler : MonoBehaviour
-    {
+namespace WolfGamer.Hold_My_Eggs{
+    public class GameHandler : MonoBehaviour{
         #region Public Variables.
 
         [Header("Language Settings")] [SerializeField]
@@ -164,6 +162,7 @@ namespace WolfGamer.Hold_My_Eggs
                             Debug.Log("Can try for another ad...");
                         }
                     }
+
                 }
                 else{
                     SetShowingAd(false);

@@ -165,7 +165,6 @@ public class AdController : MonoBehaviour{
     public void HandleRewardedAdFailedToLoad(object sender, AdFailedToLoadEventArgs args){
         RequestRewardedAd();
         GameHandler.i.SetShowingAd(false);
-        GameHandler.i.SetGameOver(false);
         GameHandler.i.SetCanShowAd(false);
         if (!rewardedAd.IsLoaded()){
             RequestRewardedAd();
