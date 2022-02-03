@@ -286,7 +286,6 @@ namespace WolfGamer.Hold_My_Eggs{
             AdController.levelRewardAd = true;
             AdController.instance.ShowRewardedAd();
             // LevelLoader.instance.MoveToNextLevel();
-            Firebaseanayltics.current.SetPlayerDeathCount(levelData.levelSaveData.playerDeathCount);
 
             int levelNumber = (int)levelData.sceneIndex;
             PlayGamesController.PostToLeaderboard(levelNumber);
@@ -355,6 +354,12 @@ namespace WolfGamer.Hold_My_Eggs{
         }
         private void OnDestroy(){
             AdController.instance.HideBanner();
+        }
+        public Egg GetEgg(){
+            return egg;
+        }
+        public List<Bowls> GetBowlsList(){
+            return bowlsList;
         }
 
         #endregion

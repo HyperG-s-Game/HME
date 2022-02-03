@@ -8510,11 +8510,37 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4e024647a6999e4893d7a56d43b1199, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  verticalDistance: 1.5
+  horizontalDistance: 1
   pfCoin: {fileID: 6993647393787877423, guid: 772f82bc3480dd74781e7059d6c1f5e3, type: 3}
   whiteEgg: {fileID: 6252409133330579191, guid: f1d65f5ddc4517248879c5401293490c, type: 3}
   Nest: {fileID: 2802440007294283329, guid: b2011b43ce61e064d927b38527b3fb49, type: 3}
-  verticalDistance: 1.5
-  horizontalDistance: 1
+  sceneObjectList:
+  - {fileID: 3703309407647330939}
+  - {fileID: 3703309409456163209}
+  - {fileID: 3703309408174427973}
+  - {fileID: 1035705305560631245}
+  - {fileID: 1223759117648125957}
+  - {fileID: 3386368322163615276}
+  - {fileID: 3328871485767983770}
+  - {fileID: 5395464208407546988}
+  - {fileID: 3075531756764773895}
+  - {fileID: 8599951340266295379}
+  - {fileID: 7959304330369600051}
+  - {fileID: 88015127006296738}
+  - {fileID: 5834540991651185819}
+  - {fileID: 1362481680094655779}
+  - {fileID: 5802529287687009234}
+  - {fileID: 285997051678651396}
+  - {fileID: 1686783101952300331}
+  - {fileID: 4109786717683255942}
+  - {fileID: 7213198292279761757}
+  - {fileID: 4178354531630994185}
+  - {fileID: 7723768688391716759}
+  - {fileID: 5499253585090881340}
+  - {fileID: 9119797540052951654}
+  maxDistanceFromEggForBowls: 8
+  maxDistanceFromObject: 11
 --- !u!1 &5005232880345887089
 GameObject:
   m_ObjectHideFlags: 0

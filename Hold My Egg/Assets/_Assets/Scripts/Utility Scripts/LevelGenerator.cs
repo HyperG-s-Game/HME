@@ -4,12 +4,37 @@ using System.Collections.Generic;
 
 namespace WolfGamer.Hold_My_Eggs{
     public class LevelGenerator : MonoBehaviour {
+        [SerializeField] private float verticalDistance,horizontalDistance;
         [SerializeField] private Coin pfCoin;
         [SerializeField] private Egg whiteEgg;
         [SerializeField] private Transform Nest;
-        [SerializeField] private float verticalDistance,horizontalDistance;
+        [SerializeField] private List<GameObject> sceneObjectList;
+
+        [SerializeField] private float maxDistanceFromEggForBowls = 4f,maxDistanceFromObject = 12f;
         private List<Bowls> levelBowls;
-        
+        private GameHandler gameHandler;
+        private void Start(){
+            gameHandler = GameHandler.i;
+        }
+        private void Update(){
+            for (int i = 0; i < sceneObjectList.Count; i++){
+                float dist = Vector2.Distance(sceneObjectList[i].transform.position , gameHandler.GetEgg().transform.position);
+                if(dist >= maxDistanceFromObject){
+                    sceneObjectList[i].gameObject.SetActive(false);
+                }else{
+                    sceneObjectList[i].gameObject.SetActive(true);
+                }
+            }
+            for (int i = 0; i < gameHandler.GetBowlsList().Count; i++){
+                float dist = Vector2.Distance(gameHandler.GetBowlsList()[i].transform.position , gameHandler.GetEgg().transform.position);
+                if(dist >= maxDistanceFromEggForBowls){
+                    gameHandler.GetBowlsList()[i].gameObject.SetActive(false);
+                }else{
+                    gameHandler.GetBowlsList()[i].gameObject.SetActive(true);
+                }
+            }
+        }
+
         public void CreateLeveL(LevelDataSO levelData){
             StartCoroutine(CreateBowlRoutine(levelData.bowlsList));
         }
@@ -70,6 +95,8 @@ namespace WolfGamer.Hold_My_Eggs{
         private void CreateNest(Vector3 t){
             Transform n = Instantiate(Nest,t,Quaternion.identity);
             CamerFollow.i.SetNestPos(n);
+
+            sceneObjectList.Add(n.gameObject);
         }
         
     }

@@ -27,8 +27,11 @@ namespace WolfGamer.Utils{
         
         [SerializeField] private Sprite[] loadingBarSpriteArray;
         [SerializeField] private SceneIndex currentLevel;
-        public static LevelLoader instance {get;private set;}
+        
         public static bool isReset{get;private set;}
+        public static LevelLoader instance {get;private set;}
+
+
         private void Awake(){
             #if UNITY_EDITOR
                 Debug.unityLogger.logEnabled = true;
@@ -66,6 +69,8 @@ namespace WolfGamer.Utils{
             CheckForReset();
             
         }
+
+        
         private void CheckForReset(){
             if(currentLevel == SceneIndex.Level_1){
                 isReset = true;
@@ -115,7 +120,6 @@ namespace WolfGamer.Utils{
             }
             SwitchScene(currentLevel);
             SavingAndLoadingManager.instance.SaveGame();
-            Firebaseanayltics.current.SetPlayerLevelAnaylytics((int)currentLevel);
         }
         
         
