@@ -17,6 +17,7 @@ namespace WolfGamer.Hold_My_Eggs{
             gameHandler = GameHandler.i;
         }
         private void Update(){
+            if(gameHandler.GetEgg() == null) return;
             for (int i = 0; i < sceneObjectList.Count; i++){
                 float dist = Vector2.Distance(sceneObjectList[i].transform.position , gameHandler.GetEgg().transform.position);
                 if(dist >= maxDistanceFromObject){

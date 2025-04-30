@@ -29,7 +29,7 @@ namespace WolfGamer.Hold_My_Eggs{
         }
         public void ShowLeaderboard(){
             #if !UNITY_EDITOR
-            PlayGamesController.ShowLeaderboardUI();
+            // PlayGamesController.ShowLeaderboardUI();
             #endif
         }
         

@@ -1,0 +1,456 @@
+2025-04-30T12:23:55.343Z|0x724|Using pre-set license
+2025-04-30T12:23:55.343Z|0x724|Built from '6000.0/staging' branch; Version is '6000.0.37f1 (090b7797214c) revision 592759'; Using compiler version '193933523'; Build Type 'Release'
+2025-04-30T12:23:55.343Z|0x724|OS: 'Windows 11  (10.0.26100) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 16068 MB
+2025-04-30T12:23:55.343Z|0x724|BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+2025-04-30T12:23:55.347Z|0x724|
+COMMAND LINE ARGUMENTS:
+2025-04-30T12:23:55.347Z|0x724|C:\Program Files\Unity\Hub\Editor\6000.0.37f1\Editor\Unity.exe
+2025-04-30T12:23:55.347Z|0x724|-adb2
+2025-04-30T12:23:55.347Z|0x724|-batchMode
+2025-04-30T12:23:55.347Z|0x724|-noUpm
+2025-04-30T12:23:55.347Z|0x724|-name
+2025-04-30T12:23:55.347Z|0x724|AssetImportWorker5
+2025-04-30T12:23:55.347Z|0x724|-projectPath
+2025-04-30T12:23:55.347Z|0x724|C:/Users/abc4d/Documents/MyDreamgame/Unity Projets/HME/Hold My Egg
+2025-04-30T12:23:55.347Z|0x724|-logFile
+2025-04-30T12:23:55.347Z|0x724|Logs/AssetImportWorker5.log
+2025-04-30T12:23:55.347Z|0x724|-srvPort
+2025-04-30T12:23:55.347Z|0x724|52348
+2025-04-30T12:23:55.347Z|0x724|-job-worker-count
+2025-04-30T12:23:55.347Z|0x724|9
+2025-04-30T12:23:55.347Z|0x724|-background-job-worker-count
+2025-04-30T12:23:55.347Z|0x724|8
+2025-04-30T12:23:55.347Z|0x724|-gc-helper-count
+2025-04-30T12:23:55.347Z|0x724|1
+2025-04-30T12:23:55.347Z|0x724|Successfully changed project path to: C:/Users/abc4d/Documents/MyDreamgame/Unity Projets/HME/Hold My Egg
+2025-04-30T12:23:55.367Z|0x724|C:/Users/abc4d/Documents/MyDreamgame/Unity Projets/HME/Hold My Egg
+2025-04-30T12:23:55.367Z|0x724|[UnityMemory] Configuration Parameters - Can be set up in boot.config
+2025-04-30T12:23:55.367Z|0x724|    "memorysetup-bucket-allocator-granularity=16"
+2025-04-30T12:23:55.367Z|0x724|    "memorysetup-bucket-allocator-bucket-count=8"
+2025-04-30T12:23:55.367Z|0x724|    "memorysetup-bucket-allocator-block-size=33554432"
+2025-04-30T12:23:55.367Z|0x724|    "memorysetup-bucket-allocator-block-count=8"
+2025-04-30T12:23:55.367Z|0x724|    "memorysetup-main-allocator-block-size=16777216"
+2025-04-30T12:23:55.367Z|0x724|    "memorysetup-thread-allocator-block-size=16777216"
+2025-04-30T12:23:55.367Z|0x724|    "memorysetup-gfx-main-allocator-block-size=16777216"
+2025-04-30T12:23:55.368Z|0x724|    "memorysetup-gfx-thread-allocator-block-size=16777216"
+2025-04-30T12:23:55.368Z|0x724|    "memorysetup-cache-allocator-block-size=4194304"
+2025-04-30T12:23:55.368Z|0x724|    "memorysetup-typetree-allocator-block-size=2097152"
+2025-04-30T12:23:55.368Z|0x724|    "memorysetup-profiler-bucket-allocator-granularity=16"
+2025-04-30T12:23:55.368Z|0x724|    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+2025-04-30T12:23:55.368Z|0x724|    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+2025-04-30T12:23:55.368Z|0x724|    "memorysetup-profiler-bucket-allocator-block-count=8"
+2025-04-30T12:23:55.368Z|0x724|    "memorysetup-profiler-allocator-block-size=16777216"
+2025-04-30T12:23:55.368Z|0x724|    "memorysetup-profiler-editor-allocator-block-size=1048576"
+2025-04-30T12:23:55.368Z|0x724|    "memorysetup-temp-allocator-size-main=16777216"
+2025-04-30T12:23:55.368Z|0x724|    "memorysetup-job-temp-allocator-block-size=2097152"
+2025-04-30T12:23:55.368Z|0x724|    "memorysetup-job-temp-allocator-block-size-background=1048576"
+2025-04-30T12:23:55.368Z|0x724|    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+2025-04-30T12:23:55.368Z|0x724|    "memorysetup-allocator-temp-initial-block-size-main=262144"
+2025-04-30T12:23:55.368Z|0x724|    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+2025-04-30T12:23:55.368Z|0x724|    "memorysetup-temp-allocator-size-background-worker=32768"
+2025-04-30T12:23:55.368Z|0x724|    "memorysetup-temp-allocator-size-job-worker=262144"
+2025-04-30T12:23:55.368Z|0x724|    "memorysetup-temp-allocator-size-preload-manager=33554432"
+2025-04-30T12:23:55.368Z|0x724|    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+2025-04-30T12:23:55.368Z|0x724|    "memorysetup-temp-allocator-size-audio-worker=65536"
+2025-04-30T12:23:55.368Z|0x724|    "memorysetup-temp-allocator-size-cloud-worker=32768"
+2025-04-30T12:23:55.368Z|0x724|    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+2025-04-30T12:23:55.368Z|0x724|    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+2025-04-30T12:23:55.368Z|0x724|    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+2025-04-30T12:23:55.368Z|0x724|    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+2025-04-30T12:23:55.368Z|0x724|    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+2025-04-30T12:23:55.368Z|0x724|    "memorysetup-temp-allocator-size-gfx=262144"
+2025-04-30T12:23:55.379Z|0x724|Player connection [1828]  Target information:
+
+2025-04-30T12:23:55.379Z|0x724|Player connection [1828]  * "[IP] 192.168.0.100 [Port] 0 [Flags] 2 [Guid] 609833757 [EditorId] 609833757 [Version] 1048832 [Id] WindowsEditor(7,MyPrideGames) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+2025-04-30T12:23:55.382Z|0x724|Player connection [1828] Host joined multi-casting on [225.0.0.222:54997]...
+2025-04-30T12:23:55.382Z|0x724|Player connection [1828] Host joined alternative multi-casting on [225.0.0.222:34997]...
+2025-04-30T12:23:55.382Z|0x724|JobSystem: Creating JobQueue using job-worker-count value 9
+2025-04-30T12:23:55.388Z|0x724|Input System module state changed to: Initialized.
+2025-04-30T12:23:55.389Z|0x724|[Physics::Module] Initialized fallback backend.
+2025-04-30T12:23:55.389Z|0x724|[Physics::Module] Id: 0xdecafbad
+2025-04-30T12:23:55.436Z|0x724|Library Redirect Path: Library/
+2025-04-30T12:23:55.474Z|0x724|[Physics::Module] Selected backend.
+2025-04-30T12:23:55.474Z|0x724|[Physics::Module] Name: PhysX
+2025-04-30T12:23:55.474Z|0x724|[Physics::Module] Id: 0xf2b8ea05
+2025-04-30T12:23:55.474Z|0x724|[Physics::Module] SDK Version: 4.1.2
+2025-04-30T12:23:55.474Z|0x724|[Physics::Module] Integration Version: 1.0.0
+2025-04-30T12:23:55.474Z|0x724|[Physics::Module] Threading Mode: Multi-Threaded
+2025-04-30T12:23:55.540Z|0x724|Refreshing native plugins compatible for Editor in 50.18 ms, found 3 plugins.
+2025-04-30T12:23:55.540Z|0x724|Preloading 0 native plugins for Editor in 0.00 ms.
+2025-04-30T12:23:55.540Z|0x724|Initialize engine version: 6000.0.37f1 (090b7797214c)
+2025-04-30T12:23:55.540Z|0x724|[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.37f1/Editor/Data/Resources/UnitySubsystems
+2025-04-30T12:23:55.540Z|0x724|[Subsystems] Discovering subsystems at path C:/Users/abc4d/Documents/MyDreamgame/Unity Projets/HME/Hold My Egg/Assets
+2025-04-30T12:23:55.541Z|0x724|GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+2025-04-30T12:23:55.889Z|0x724|Direct3D:
+2025-04-30T12:23:55.889Z|0x724|    Version:  Direct3D 11.0 [level 11.1]
+2025-04-30T12:23:55.889Z|0x724|    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2560)
+2025-04-30T12:23:55.889Z|0x724|    Vendor:   NVIDIA
+2025-04-30T12:23:55.889Z|0x724|    VRAM:     5996 MB
+2025-04-30T12:23:55.890Z|0x724|    Driver:   32.0.15.7602
+2025-04-30T12:23:56.122Z|0x724|Initialize mono
+2025-04-30T12:23:56.122Z|0x724|Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.37f1/Editor/Data/Managed'
+2025-04-30T12:23:56.122Z|0x724|Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.37f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+2025-04-30T12:23:56.122Z|0x724|Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.37f1/Editor/Data/MonoBleedingEdge/etc'
+2025-04-30T12:23:56.123Z|0x724|Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56632
+2025-04-30T12:23:56.190Z|0x724|Begin MonoManager ReloadAssembly
+2025-04-30T12:23:56.477Z|0x724|Registering precompiled unity dll's ...
+2025-04-30T12:23:56.479Z|0x724|Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.37f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+2025-04-30T12:23:56.482Z|0x724|Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.37f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+2025-04-30T12:23:56.484Z|0x724|Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.37f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+2025-04-30T12:23:56.486Z|0x724|Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.37f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+2025-04-30T12:23:56.487Z|0x724|Registered in 0.010347 seconds.
+2025-04-30T12:23:56.742Z|0x724|- Loaded All Assemblies, in  0.551 seconds
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+2025-04-30T12:23:56.820Z|0x724|Native extension for iOS target not found
+2025-04-30T12:23:56.861Z|0x724|Native extension for Android target not found
+2025-04-30T12:23:59.288Z|0x724|Android Extension - Scanning For ADB Devices 2388 ms
+Native extension for WindowsStandalone target not found
+2025-04-30T12:23:59.289Z|0x724|Native extension for WebGL target not found
+2025-04-30T12:23:59.489Z|0x724|Mono: successfully reloaded assembly
+2025-04-30T12:23:59.503Z|0x724|- Finished resetting the current domain, in  2.761 seconds
+2025-04-30T12:23:59.503Z|0x724|Domain Reload Profiling: 3308ms
+	BeginReloadAssembly (192ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (24ms)
+	initialDomainReloadingComplete (68ms)
+	LoadAllAssembliesAndSetupDomain (221ms)
+		LoadAssemblies (190ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (216ms)
+			TypeCache.Refresh (214ms)
+				TypeCache.ScanAssembly (198ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (2761ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2718ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (2517ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (43ms)
+			ProcessInitializeOnLoadAttributes (102ms)
+			ProcessInitializeOnLoadMethodAttributes (51ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+2025-04-30T12:23:59.669Z|0x724|========================================================================
+2025-04-30T12:23:59.669Z|0x724|Worker process is ready to serve import requests
+2025-04-30T12:23:59.670Z|0x724|Import Worker Mode flag is 0x00
+2025-04-30T12:23:59.814Z|0x724|Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+2025-04-30T12:24:00.623Z|0x724|- Loaded All Assemblies, in  0.810 seconds
+2025-04-30T12:24:00.892Z|0x724|Refreshing native plugins compatible for Editor in 25.65 ms, found 3 plugins.
+2025-04-30T12:24:01.044Z|0x724|Native extension for iOS target not found
+2025-04-30T12:24:01.052Z|0x724|Native extension for Android target not found
+2025-04-30T12:24:01.055Z|0x724|Native extension for WindowsStandalone target not found
+2025-04-30T12:24:01.055Z|0x724|Native extension for WebGL target not found
+2025-04-30T12:24:01.374Z|0x724|Refreshing native plugins compatible for Editor in 19.83 ms, found 3 plugins.
+2025-04-30T12:24:01.771Z|0x724|Mono: successfully reloaded assembly
+2025-04-30T12:24:01.781Z|0x724|- Finished resetting the current domain, in  0.858 seconds
+2025-04-30T12:24:01.782Z|0x724|Domain Reload Profiling: 1660ms
+	BeginReloadAssembly (159ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (33ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (563ms)
+		LoadAssemblies (432ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (228ms)
+			TypeCache.Refresh (163ms)
+				TypeCache.ScanAssembly (143ms)
+			BuildScriptInfoCaches (54ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (858ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (726ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (17ms)
+			SetLoadedEditorAssemblies (5ms)
+			BeforeProcessingInitializeOnLoad (105ms)
+			ProcessInitializeOnLoadAttributes (361ms)
+			ProcessInitializeOnLoadMethodAttributes (232ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+2025-04-30T12:24:01.971Z|0x724|Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+2025-04-30T12:24:02.403Z|0x724|Refreshing native plugins compatible for Editor in 73.61 ms, found 3 plugins.
+2025-04-30T12:24:02.403Z|0x724|Preloading 0 native plugins for Editor in 0.00 ms.
+2025-04-30T12:24:02.407Z|0x4e18|Unloading 224 Unused Serialized files (Serialized files now loaded: 0)
+2025-04-30T12:24:02.449Z|0x724|Unloading 5731 unused Assets / (5.1 MB). Loaded Objects now: 6276.
+Memory consumption went from 178.3 MB to 173.2 MB.
+2025-04-30T12:24:02.449Z|0x724|Total: 42.788700 ms (FindLiveObjects: 1.400500 ms CreateObjectMapping: 1.706400 ms MarkObjects: 33.719200 ms  DeleteObjects: 5.959200 ms)
+
+2025-04-30T12:24:42.264Z|0x724|========================================================================
+Received Import Request.
+  Time since last request: 1820.394253 seconds.
+  path: Assets/_Assets/Scriptable Objects/Level Data/Level 4.asset
+  artifactKey: Guid(05b3bd4a202e22948a344b2120b8d76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+2025-04-30T12:24:42.283Z|0x724|Start importing Assets/_Assets/Scriptable Objects/Level Data/Level 4.asset using Guid(05b3bd4a202e22948a344b2120b8d76a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'eb68334aeea3a0a51d2c040ff9ff0039') in 0.0540091 seconds
+2025-04-30T12:24:42.361Z|0x724|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 90
+
+2025-04-30T12:24:42.361Z|0x724|========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_Assets/Scriptable Objects/Level Data/Level 7.asset
+  artifactKey: Guid(8a7f1b807516b5746ac02280cff36fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+2025-04-30T12:24:42.372Z|0x724|Start importing Assets/_Assets/Scriptable Objects/Level Data/Level 7.asset using Guid(8a7f1b807516b5746ac02280cff36fa4) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5036cec545e108e87e7f2dc1342799f8') in 0.0064028 seconds
+2025-04-30T12:24:42.399Z|0x724|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 90
+
+2025-04-30T12:24:42.400Z|0x724|========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/_Assets/Scriptable Objects/Level Data/Level 6.asset
+  artifactKey: Guid(fcfa66d69c5fcd24ebc39eb573ea9c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+2025-04-30T12:24:42.409Z|0x724|Start importing Assets/_Assets/Scriptable Objects/Level Data/Level 6.asset using Guid(fcfa66d69c5fcd24ebc39eb573ea9c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'be7d0b28abe83879e47f9e08e490dd56') in 0.0060142 seconds
+2025-04-30T12:24:42.437Z|0x724|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 90
+
+2025-04-30T12:24:42.437Z|0x724|========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/_Assets/Scriptable Objects/Level Data/Level 22.asset
+  artifactKey: Guid(794729deb7cb799478d0d441ccfa2995) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+2025-04-30T12:24:42.447Z|0x724|Start importing Assets/_Assets/Scriptable Objects/Level Data/Level 22.asset using Guid(794729deb7cb799478d0d441ccfa2995) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '515b0b452caf4676e0b169e3771ace80') in 0.0115331 seconds
+2025-04-30T12:24:42.477Z|0x724|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 312
+
+2025-04-30T12:24:42.478Z|0x724|========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/_Assets/Scriptable Objects/Level Data/Level 12.asset
+  artifactKey: Guid(c22e3a4e27b469a489ed73b9e70634f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+2025-04-30T12:24:42.487Z|0x724|Start importing Assets/_Assets/Scriptable Objects/Level Data/Level 12.asset using Guid(c22e3a4e27b469a489ed73b9e70634f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dac65af7841661ff2bae33e70d3aa6a1') in 0.009761 seconds
+2025-04-30T12:24:42.515Z|0x724|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 266
+
+2025-04-30T12:25:03.627Z|0x724|========================================================================
+Received Import Request.
+  Time since last request: 21.111962 seconds.
+  path: Assets/_Assets/Custome Assets/HoldMyEgg-Complete/GamePlayAssets/background.JPG
+  artifactKey: Guid(06ffe5ec5e90bbf4795c5a9759aefe42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+2025-04-30T12:25:03.636Z|0x724|Start importing Assets/_Assets/Custome Assets/HoldMyEgg-Complete/GamePlayAssets/background.JPG using Guid(06ffe5ec5e90bbf4795c5a9759aefe42) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'dc4b8b0d5af7f5808f7a6c55593c945e') in 0.0901643 seconds
+2025-04-30T12:25:03.764Z|0x724|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+2025-04-30T12:25:03.765Z|0x724|========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/_Assets/Custome Assets/HoldMyEgg-Complete/Settings/button.png
+  artifactKey: Guid(dbedaa1c80fbcc04394bb4a3a4796f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+2025-04-30T12:25:03.781Z|0x724|Start importing Assets/_Assets/Custome Assets/HoldMyEgg-Complete/Settings/button.png using Guid(dbedaa1c80fbcc04394bb4a3a4796f73) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'df51678e4f4f9dd856e4c91cc55e81f4') in 0.0148531 seconds
+2025-04-30T12:25:03.818Z|0x724|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+2025-04-30T12:25:03.818Z|0x724|========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/_Assets/Custome Assets/HoldMyEgg-Complete/Main Menu/btn_play.PNG
+  artifactKey: Guid(0374a5801686ab444b28e6ffc9a7cf79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+2025-04-30T12:25:03.826Z|0x724|Start importing Assets/_Assets/Custome Assets/HoldMyEgg-Complete/Main Menu/btn_play.PNG using Guid(0374a5801686ab444b28e6ffc9a7cf79) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3ee5a1f8ee3500e5cb3f5dd9e29d423d') in 0.0165051 seconds
+2025-04-30T12:25:03.871Z|0x724|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+2025-04-30T12:25:03.871Z|0x724|========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/_Assets/Custome Assets/Egg game assets/shop/btn_close.PNG
+  artifactKey: Guid(47d5572ad60e8b1488123f9c7caa9b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+2025-04-30T12:25:03.882Z|0x724|Start importing Assets/_Assets/Custome Assets/Egg game assets/shop/btn_close.PNG using Guid(47d5572ad60e8b1488123f9c7caa9b74) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e4d85809a63f4510a620b2b1dd5f1ff5') in 0.0131701 seconds
+2025-04-30T12:25:03.917Z|0x724|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+2025-04-30T12:25:06.607Z|0x724|========================================================================
+Received Import Request.
+  Time since last request: 2.689074 seconds.
+  path: Assets/Lean/Localization/Examples/Media/English Flag.png
+  artifactKey: Guid(e0293e2bea0144848ad02911a09f2099) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+2025-04-30T12:25:06.620Z|0x724|Start importing Assets/Lean/Localization/Examples/Media/English Flag.png using Guid(e0293e2bea0144848ad02911a09f2099) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a01cae47e8ca62c36c97f2b10f75aebd') in 0.0134752 seconds
+2025-04-30T12:25:06.665Z|0x724|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+2025-04-30T12:25:06.818Z|0x724|========================================================================
+Received Import Request.
+  Time since last request: 0.152576 seconds.
+  path: Assets/_Assets/Custome Assets/HoldMyEgg-Complete/Main Menu/logo_hold_my_egg.PNG
+  artifactKey: Guid(3597c1e68bb3895478ec84625cd85767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+2025-04-30T12:25:06.830Z|0x724|Start importing Assets/_Assets/Custome Assets/HoldMyEgg-Complete/Main Menu/logo_hold_my_egg.PNG using Guid(3597c1e68bb3895478ec84625cd85767) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2c8507020a0fa04027069e91d6a42aa8') in 0.015146 seconds
+2025-04-30T12:25:06.864Z|0x724|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+2025-04-30T12:25:10.665Z|0x724|========================================================================
+Received Import Request.
+  Time since last request: 3.801982 seconds.
+  path: Assets/_Assets/Custome Assets/New Blue Bowl Bottom.png
+  artifactKey: Guid(0a5a9ad976944434ea28024e16f02a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+2025-04-30T12:25:10.676Z|0x724|Start importing Assets/_Assets/Custome Assets/New Blue Bowl Bottom.png using Guid(0a5a9ad976944434ea28024e16f02a2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'cea0d3337f9b80f560e4cf887e5fafac') in 0.0163808 seconds
+2025-04-30T12:25:10.719Z|0x724|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+2025-04-30T12:25:10.719Z|0x724|========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/_Assets/Custome Assets/New Red Bowl Top.png
+  artifactKey: Guid(53c3286e2c25b9b4ca30784c9f4a67ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+2025-04-30T12:25:10.731Z|0x724|Start importing Assets/_Assets/Custome Assets/New Red Bowl Top.png using Guid(53c3286e2c25b9b4ca30784c9f4a67ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '801d75c05edcef62552dea5ad89d4c01') in 0.0081723 seconds
+2025-04-30T12:25:10.757Z|0x724|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+2025-04-30T12:25:10.860Z|0x724|========================================================================
+Received Import Request.
+  Time since last request: 0.103018 seconds.
+  path: Assets/_Assets/Custome Assets/Egg game assets/level complete/HoldMYEgg Assets/Untitled-1 copy/Untitled-1 copy_00001.png
+  artifactKey: Guid(d085e1f763c151a4c9f2d82b1dba1ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+2025-04-30T12:25:10.869Z|0x724|Start importing Assets/_Assets/Custome Assets/Egg game assets/level complete/HoldMYEgg Assets/Untitled-1 copy/Untitled-1 copy_00001.png using Guid(d085e1f763c151a4c9f2d82b1dba1ef1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '5df0c36cd81224e5ab3922bedeac633c') in 0.0164529 seconds
+2025-04-30T12:25:10.903Z|0x724|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+2025-04-30T12:25:10.903Z|0x724|========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/_Assets/Custome Assets/Egg game assets/level complete/HoldMYEgg Assets/Untitled-1 copy/Untitled-1 copy_00004.png
+  artifactKey: Guid(bf5c193ead1d3f54e896e1f43c1f442a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+2025-04-30T12:25:10.911Z|0x724|Start importing Assets/_Assets/Custome Assets/Egg game assets/level complete/HoldMYEgg Assets/Untitled-1 copy/Untitled-1 copy_00004.png using Guid(bf5c193ead1d3f54e896e1f43c1f442a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7be715ce0b8c3fa28dcc99cff23e1f88') in 0.0099699 seconds
+2025-04-30T12:25:10.938Z|0x724|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+2025-04-30T12:25:56.364Z|0x724|========================================================================
+2025-04-30T12:25:56.364Z|0x724|Received Prepare
+2025-04-30T12:25:56.598Z|0x724|Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+2025-04-30T12:25:57.500Z|0x724|- Loaded All Assemblies, in  0.901 seconds
+2025-04-30T12:25:57.819Z|0x724|Refreshing native plugins compatible for Editor in 33.46 ms, found 3 plugins.
+2025-04-30T12:25:58.047Z|0x724|Native extension for iOS target not found
+2025-04-30T12:25:58.055Z|0x724|Native extension for Android target not found
+2025-04-30T12:25:58.059Z|0x724|Native extension for WindowsStandalone target not found
+2025-04-30T12:25:58.060Z|0x724|Native extension for WebGL target not found
+2025-04-30T12:25:58.776Z|0x724|Mono: successfully reloaded assembly
+2025-04-30T12:25:58.797Z|0x724|- Finished resetting the current domain, in  0.931 seconds
+2025-04-30T12:25:58.798Z|0x724|Domain Reload Profiling: 1824ms
+	BeginReloadAssembly (249ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (13ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (58ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (561ms)
+		LoadAssemblies (503ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (190ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (167ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (931ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (723ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (21ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (159ms)
+			ProcessInitializeOnLoadAttributes (364ms)
+			ProcessInitializeOnLoadMethodAttributes (163ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (15ms)
+2025-04-30T12:25:59.188Z|0x724|Refreshing native plugins compatible for Editor in 52.79 ms, found 3 plugins.
+2025-04-30T12:25:59.188Z|0x724|Preloading 0 native plugins for Editor in 0.00 ms.
+2025-04-30T12:25:59.190Z|0x55dc|Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+2025-04-30T12:25:59.211Z|0x724|Unloading 5729 unused Assets / (5.4 MB). Loaded Objects now: 6301.
+Memory consumption went from 153.9 MB to 148.5 MB.
+2025-04-30T12:25:59.211Z|0x724|Total: 20.368000 ms (FindLiveObjects: 0.684200 ms CreateObjectMapping: 1.304100 ms MarkObjects: 14.386300 ms  DeleteObjects: 3.991300 ms)
+
+2025-04-30T12:25:59.211Z|0x724|Prepare: number of updated asset objects reloaded= 0
+2025-04-30T12:25:59.212Z|0x724|========================================================================
+Received Import Request.
+  Time since last request: 48.273409 seconds.
+  path: Assets/_Assets/Scripts/Utility Scripts/LevelLoader.cs
+  artifactKey: Guid(19b37361bf8708c4cbaa92450fcb1a1f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+2025-04-30T12:25:59.239Z|0x724|Start importing Assets/_Assets/Scripts/Utility Scripts/LevelLoader.cs using Guid(19b37361bf8708c4cbaa92450fcb1a1f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'da2e6a07d5de3d7a6a0b95f0167b35af') in 0.2845646 seconds
+2025-04-30T12:25:59.560Z|0x724|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+2025-04-30T12:32:55.271Z|0x724|========================================================================
+2025-04-30T12:32:55.271Z|0x724|Received Prepare
+2025-04-30T12:32:55.886Z|0x724|Refreshing native plugins compatible for Editor in 182.61 ms, found 3 plugins.
+2025-04-30T12:32:55.887Z|0x724|Preloading 0 native plugins for Editor in 0.00 ms.
+2025-04-30T12:32:55.887Z|0x55dc|Unloading 13 Unused Serialized files (Serialized files now loaded: 0)
+2025-04-30T12:32:55.915Z|0x724|Unloading 5567 unused Assets / (4.6 MB). Loaded Objects now: 6301.
+Memory consumption went from 153.2 MB to 148.7 MB.
+2025-04-30T12:32:55.915Z|0x724|Total: 26.870000 ms (FindLiveObjects: 0.670700 ms CreateObjectMapping: 1.171700 ms MarkObjects: 21.073000 ms  DeleteObjects: 3.952300 ms)
+
+2025-04-30T12:32:55.915Z|0x724|Prepare: number of updated asset objects reloaded= 0
+2025-04-30T12:32:56.304Z|0x724|========================================================================
+Received Import Request.
+  Time since last request: 416.744514 seconds.
+  path: Assets/_Assets/Scripts/Utility Scripts/LevelGenerator.cs
+  artifactKey: Guid(f4e024647a6999e4893d7a56d43b1199) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+2025-04-30T12:32:56.317Z|0x724|Start importing Assets/_Assets/Scripts/Utility Scripts/LevelGenerator.cs using Guid(f4e024647a6999e4893d7a56d43b1199) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'd9e5a4ccca962fcc7fbd952d7a9013e9') in 0.0120964 seconds
+2025-04-30T12:32:56.365Z|0x724|Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+2025-04-30T12:32:59.810Z|0x724|========================================================================
+2025-04-30T12:32:59.810Z|0x724|Received Prepare
+2025-04-30T12:33:00.066Z|0x724|Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory is not a mono symbol file
+2025-04-30T12:33:01.191Z|0x724|- Loaded All Assemblies, in  1.127 seconds
+2025-04-30T12:33:01.625Z|0x724|Refreshing native plugins compatible for Editor in 47.72 ms, found 3 plugins.
+2025-04-30T12:33:01.847Z|0x724|Native extension for iOS target not found
+2025-04-30T12:33:01.858Z|0x724|Native extension for Android target not found
+2025-04-30T12:33:01.862Z|0x724|Native extension for WindowsStandalone target not found
+2025-04-30T12:33:01.862Z|0x724|Native extension for WebGL target not found
+2025-04-30T12:33:02.737Z|0x724|Mono: successfully reloaded assembly
+2025-04-30T12:33:02.767Z|0x724|- Finished resetting the current domain, in  1.102 seconds
+2025-04-30T12:33:02.768Z|0x724|Domain Reload Profiling: 2213ms
+	BeginReloadAssembly (306ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (17ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (96ms)
+	RebuildCommonClasses (46ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (49ms)
+	LoadAllAssembliesAndSetupDomain (694ms)
+		LoadAssemblies (546ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (272ms)
+			TypeCache.Refresh (15ms)
+				TypeCache.ScanAssembly (1ms)
+			BuildScriptInfoCaches (237ms)
+			ResolveRequiredComponents (15ms)
+	FinalizeReload (1102ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (877ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (25ms)
+			SetLoadedEditorAssemblies (6ms)
+			BeforeProcessingInitializeOnLoad (157ms)
+			ProcessInitializeOnLoadAttributes (451ms)
+			ProcessInitializeOnLoadMethodAttributes (221ms)
+			AfterProcessingInitializeOnLoad (16ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (22ms)
+2025-04-30T12:33:03.176Z|0x724|Refreshing native plugins compatible for Editor in 47.87 ms, found 3 plugins.
+2025-04-30T12:33:03.176Z|0x724|Preloading 0 native plugins for Editor in 0.00 ms.
+2025-04-30T12:33:03.178Z|0x3208|Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+2025-04-30T12:33:03.201Z|0x724|Unloading 5729 unused Assets / (5.1 MB). Loaded Objects now: 6303.
+Memory consumption went from 153.9 MB to 148.8 MB.
+2025-04-30T12:33:03.201Z|0x724|Total: 22.154600 ms (FindLiveObjects: 0.628500 ms CreateObjectMapping: 0.876600 ms MarkObjects: 16.613500 ms  DeleteObjects: 4.033900 ms)
+
+2025-04-30T12:33:03.201Z|0x724|Prepare: number of updated asset objects reloaded= 0
+2025-04-30T12:49:52.140Z|0x724|========================================================================
+Received Import Request.
+  Time since last request: 1015.774152 seconds.
+  path: Assets/Settings/UniversalRenderPipelineAsset.asset
+  artifactKey: Guid(7965cde2084cdcd4e85e849d84727f99) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+2025-04-30T12:49:52.606Z|0x724|Start importing Assets/Settings/UniversalRenderPipelineAsset.asset using Guid(7965cde2084cdcd4e85e849d84727f99) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '9940f2d6385e1aa50065d40948d20219') in 0.9466974 seconds
+2025-04-30T12:49:53.689Z|0x724|Number of updated asset objects reloaded before import = 2Number of asset objects unloaded after import = 1
+

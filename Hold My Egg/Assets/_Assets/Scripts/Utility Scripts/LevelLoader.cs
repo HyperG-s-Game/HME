@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using UnityEngine.SceneManagement;
 namespace WolfGamer.Utils{
     public enum SceneIndex {
-        persistantScene = 1,Main_Menu = 2,
+        InitScene = 0,persistantScene = 1,Main_Menu = 2,
 
         Level_1 = 3,Level_2 = 4,Level_3 = 5,Level_4 = 6,Level_5 = 7,Level_6 = 8,Level_7 = 9,Level_8 = 10,Level_9 = 11,Level_10 = 12,
         Level_11 = 13,Level_12 = 14,Level_13 = 15,Level_14 = 16,Level_15 = 17,Level_16 = 18,Level_17 = 19,Level_18 = 20,Level_19 = 21,Level_20 = 22

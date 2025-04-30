@@ -24,8 +24,6 @@ namespace WolfGamer.Hold_My_Eggs{
         [SerializeField]
         private UnityEvent onGamePlayingEvents, onEndEvents, onPlayerWinEvents, onPlayerLossEvents, OnGamePaused;
 
-        [Header("References")] [SerializeField]
-        private GetGooglePlayData getAchivmentData;
 
         [SerializeField] private UIPopUpWindow eggColorChangingCanvas;
         [SerializeField] private LevelGenerator levelGenerator;
@@ -86,11 +84,8 @@ namespace WolfGamer.Hold_My_Eggs{
 
             uImanager.SetLiveCount(maxReviveCount);
             StartCoroutine(nameof(StartGameRoutine));
-
-            if (AdController.instance.IsRewardedAdLoaded()){
-                SetCanShowAd(true);
-                SetShowingAd(false);
-            }
+            SetCanShowAd(false);
+            SetShowingAd(false);
         }
 
 
@@ -180,9 +175,7 @@ namespace WolfGamer.Hold_My_Eggs{
             cameraFollow.StartFollowTarget(false);
             if (isWinn){
                 Debug.Log("Revive The Player");
-                
                 onPlayerWinEvents?.Invoke();
-                getAchivmentData.SetAchivementData(levelData);
             }
 
             if (isLoos){
@@ -194,7 +187,6 @@ namespace WolfGamer.Hold_My_Eggs{
                 {string.Concat("Level Loos",levelData.sceneIndex),isLoos},
             });
             ShowInterstetialAds();
-            AdController.instance.RequestBanner();
             Debug.Log(result + " from " + this.name);
         }
 
@@ -266,29 +258,17 @@ namespace WolfGamer.Hold_My_Eggs{
         }
 
         private void ShowInterstetialAds(){
-            // int rand = UnityEngine.Random.Range(0,6);
-            if (levelData.sceneIndex != SceneIndex.Level_1){
-                if(hasAddInGame){
-                    // Shwoing Interstetial Ads if game has any ads...
-                    // No premium Membership is purchased..
-                    AdController.instance.ShowInterstitialAd();
-                }
-            }
             AnalyticsResult result = Analytics.CustomEvent("Ad Data",new Dictionary<string,object>{
                 {"Interstetial Ads",levelData.sceneIndex},
-                
             });
         }
 
 
         public void NextLevel(){
             // Move to Next Level...
-            AdController.levelRewardAd = true;
-            AdController.instance.ShowRewardedAd();
-            // LevelLoader.instance.MoveToNextLevel();
-
             int levelNumber = (int)levelData.sceneIndex;
-            PlayGamesController.PostToLeaderboard(levelNumber);
+            // PlayGamesController.PostToLeaderboard(levelNumber);
+            LevelLoader.instance.MoveToNextLevel();
         }
 
         public void Restart(){
@@ -353,7 +333,6 @@ namespace WolfGamer.Hold_My_Eggs{
             levelData.SetDeathCount(count);
         }
         private void OnDestroy(){
-            AdController.instance.HideBanner();
         }
         public Egg GetEgg(){
             return egg;

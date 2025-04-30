@@ -73,17 +73,17 @@ namespace WolfGamer.Hold_My_Eggs{
             if(SearcheCoins() != null){
                 SearcheCoins().CollideWithEgg();
             }
-            if(rb2D.velocity.y > 1f){
+            if(rb2D.linearVelocity.y > 1f){
                 if(iscollidingTop()){
                     coli.enabled = true;
                 }else{
                     coli.enabled = false;
                 }
             }
-            else if(rb2D.velocity.y <= 0.1f){
+            else if(rb2D.linearVelocity.y <= 0.1f){
                 coli.enabled = true;
             }
-            if(rb2D.velocity.y <= 0.1f || transform.parent != null){
+            if(rb2D.linearVelocity.y <= 0.1f || transform.parent != null){
                 gfxSpriteRenderer.sortingOrder = initialSortOrder;
             }
             if(currentBowl != null) {
@@ -125,7 +125,7 @@ namespace WolfGamer.Hold_My_Eggs{
             gfxSpriteRenderer.sortingOrder = 20;
         }
         private void AddJumpForce(){
-            rb2D.velocity = new Vector2(0f,0f);
+            rb2D.linearVelocity = new Vector2(0f,0f);
             rb2D.AddForce(Vector2.up * jumpForce,ForceMode2D.Impulse);
             rb2D.AddTorque(-rotationForce);
         }
@@ -198,7 +198,7 @@ namespace WolfGamer.Hold_My_Eggs{
                         AudioManager.i.PlayMusic(SoundType.EggCracking);
                         rb2D.freezeRotation = true;
                         transform.eulerAngles = Vector3.zero;
-                        rb2D.velocity = Vector2.zero;
+                        rb2D.linearVelocity = Vector2.zero;
                         rb2D.isKinematic = true;
                         eggCrackEffect.gameObject.SetActive(true);
                         eggCrackEffect.Play();
