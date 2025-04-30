@@ -63,11 +63,11 @@ namespace WolfGamer.Hold_My_Eggs{
                 resetJump = true;
             }
             if(startJumping){
-                #if UNITY_EDITOR
-                    KeyBoardJumping();
+				KeyBoardJumping();
+                /* #if UNITY_EDITOR
                 #elif UNITY_ANDROID
                     TouchJump();
-                #endif
+                #endif */
 
             }
             if(SearcheCoins() != null){
