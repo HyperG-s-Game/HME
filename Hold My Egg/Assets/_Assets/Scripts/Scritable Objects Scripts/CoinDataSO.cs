@@ -1,40 +1,38 @@
 using System.IO;
 using UnityEngine;
-using System.Runtime.Serialization.Formatters.Binary;
 
 namespace WolfGamer.Hold_My_Eggs{
     [CreateAssetMenu(fileName = "coin",menuName = "ScriptableObject/Coin Collecter")]
     public class CoinDataSO : ScriptableObject {
-        
+
         [SerializeField] private int totalCoinAmount;
-        [SerializeField] private string savePath = "coinsAmount.dat";
-        
+        [SerializeField] private string savePath = "coinsAmount.json";
+
         public void AddCoin(int amount){
             totalCoinAmount += amount;
         }
         public int GetCoinAmount(){
             return totalCoinAmount;
         }
+
+        [System.Serializable]
+        private struct CoinSaveModel { public int totalCoinAmount; }
+
         [ContextMenu("Save")]
         public void Save(){
-            string data = JsonUtility.ToJson(this,true);
-            BinaryFormatter formatter = new BinaryFormatter();
-            FileStream file = File.Create(string.Concat(Application.persistentDataPath,"/",savePath));
-            formatter.Serialize(file,data);
-            file.Close();
+            var model = new CoinSaveModel{ totalCoinAmount = totalCoinAmount };
+            string json = JsonUtility.ToJson(model, true);
+            File.WriteAllText(Path.Combine(Application.persistentDataPath, savePath), json);
         }
 
         [ContextMenu("Load")]
         public void Load(){
-            if(File.Exists((string.Concat(Application.persistentDataPath,"/",savePath)))){
-                BinaryFormatter formatter = new BinaryFormatter();
-                FileStream Stream = File.Open(string.Concat(Application.persistentDataPath,"/",savePath),FileMode.Open);
-                JsonUtility.FromJsonOverwrite(formatter.Deserialize(Stream).ToString(),this);
-                Stream.Close();
+            string path = Path.Combine(Application.persistentDataPath, savePath);
+            if(File.Exists(path)){
+                string json = File.ReadAllText(path);
+                var model = JsonUtility.FromJson<CoinSaveModel>(json);
+                totalCoinAmount = model.totalCoinAmount;
             }
         }
-
-        
     }
-
 }

@@ -7,7 +7,7 @@ namespace WolfGamer.Hold_My_Eggs{
         [SerializeField] private float rayLength = 0.3f;
         [SerializeField] private LayerMask obstacleMask;
         
-        private bool move;
+        private bool inMovementArea;
         
         
         
@@ -17,11 +17,13 @@ namespace WolfGamer.Hold_My_Eggs{
         
         protected override void Update(){
             base.Update();
-            currenSpeed = moveSpeed;
-            if(move){
-                Movement();
-            }else{
-                currenSpeed = 0f;
+
+            // Move only when game is running and bowl is inside movement area
+            bool canMove = startMove && inMovementArea;
+            currenSpeed = canMove ? moveSpeed : 0f;
+
+            if(canMove){
+                transform.Translate(Vector2.right * currenSpeed * Time.deltaTime);
             }
         }
         
@@ -29,32 +31,24 @@ namespace WolfGamer.Hold_My_Eggs{
             base.OnOffTriggerCollider(_isOn);
         }
         
-        
-        private void Movement(){
-            transform.Translate(Vector2.right * moveSpeed * Time.deltaTime);
-        }
         private void OnCollisionEnter2D(Collision2D coli){
             if(coli.gameObject.CompareTag("Wall")){
-                moveSpeed *= -1;
+                moveSpeed *= -1f;
             }
         }
         private void OnTriggerEnter2D(Collider2D coli){
             if(coli.gameObject.CompareTag("Wall")){
-                moveSpeed *= -1;
+                moveSpeed *= -1f;
             }
         }
         private void OnTriggerStay2D(Collider2D coli){
             if(coli.gameObject.CompareTag("Movement Area")){
-                if(startMove){
-                    move = true;
-                }else{
-                    move = false;
-                }
+                inMovementArea = true;
             }
         }
         private void OnTriggerExit2D(Collider2D coli){
             if(coli.gameObject.CompareTag("Movement Area")){
-                move = false;
+                inMovementArea = false;
             }
         }
         

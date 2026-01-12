@@ -1,0 +1,1584 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.2/respin/6000.2.8f1-e4064264ae96' branch; Version is '6000.2.8f1 (c9992ac36c34) revision 13211946'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 7937 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2026-01-12T16:36:23Z
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Admin" at "2026-01-12T16:36:23.327817Z"
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.2.8f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+D:/Github-Proj/UnityProjects/HME/Hold My Egg
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+52716
+-licensingIpc
+LicenseClient-Admin
+-job-worker-count
+3
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: D:/Github-Proj/UnityProjects/HME/Hold My Egg
+D:/Github-Proj/UnityProjects/HME/Hold My Egg
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [9320]  Target information:
+
+Player connection [9320]  * "[IP] 172.25.64.1 [Port] 0 [Flags] 2 [Guid] 662892779 [EditorId] 662892779 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DVPE94C) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [9320]  * "[IP] 192.168.31.117 [Port] 0 [Flags] 2 [Guid] 662892779 [EditorId] 662892779 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-DVPE94C) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [9320] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [9320] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 13112, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.17.4+4293ba1
+  Session Id:              af0bd38d2d6e4cc397c975c58b727f44
+  Correlation Id:          551495f6a6bd5e22b94c0f7d4e72376c
+  External correlation Id: 9034003828351803725
+  Machine Id:              CgiKm436C2OROozlJgY1aO+qVBA=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Admin" (connect: 0.00s, validation: 0.00s, handshake: 0.11s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Admin-notifications" at "2026-01-12T16:36:23.4460224Z"
+[Licensing::Module] Licensing Background thread has ended after 0.12s
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 13469719350406-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+Refreshing native plugins compatible for Editor in 980.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.2.8f1 (c9992ac36c34)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.2.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Github-Proj/UnityProjects/HME/Hold My Egg/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   NVIDIA
+    VRAM:     3964 MB
+    Driver:   32.0.15.8183
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.2.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.2.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.2.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56316
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.2.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.012249 seconds.
+- Loaded All Assemblies, in  3.513 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 874 ms
+Native extension for WindowsStandalone target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.222 seconds
+Domain Reload Profiling: 5720ms
+	BeginReloadAssembly (1921ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (4ms)
+	RebuildCommonClasses (203ms)
+	RebuildNativeTypeToScriptingClass (61ms)
+	initialDomainReloadingComplete (244ms)
+	LoadAllAssembliesAndSetupDomain (1068ms)
+		LoadAssemblies (1911ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1044ms)
+			TypeCache.Refresh (1015ms)
+				TypeCache.ScanAssembly (900ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (26ms)
+	FinalizeReload (2223ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2031ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1289ms)
+			SetLoadedEditorAssemblies (10ms)
+			BeforeProcessingInitializeOnLoad (227ms)
+			ProcessInitializeOnLoadAttributes (402ms)
+			ProcessInitializeOnLoadMethodAttributes (103ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+[Licensing::Client] Successfully resolved entitlement details
+Symbol file LoadedFromMemory is not a mono symbol file
+- Loaded All Assemblies, in  5.545 seconds
+Refreshing native plugins compatible for Editor in 65.60 ms, found 3 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 65.75 ms, found 3 plugins.
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  3.773 seconds
+Domain Reload Profiling: 9312ms
+	BeginReloadAssembly (1008ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (34ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (173ms)
+	RebuildCommonClasses (199ms)
+	RebuildNativeTypeToScriptingClass (36ms)
+	initialDomainReloadingComplete (111ms)
+	LoadAllAssembliesAndSetupDomain (4184ms)
+		LoadAssemblies (2780ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (1939ms)
+			TypeCache.Refresh (1661ms)
+				TypeCache.ScanAssembly (1533ms)
+			BuildScriptInfoCaches (234ms)
+			ResolveRequiredComponents (30ms)
+	FinalizeReload (3774ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2955ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (30ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (479ms)
+			ProcessInitializeOnLoadAttributes (1825ms)
+			ProcessInitializeOnLoadMethodAttributes (597ms)
+			AfterProcessingInitializeOnLoad (14ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (11ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 34.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 14 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5937 unused Assets / (2.5 MB). Loaded Objects now: 6493.
+Memory consumption went from 133.2 MB to 130.7 MB.
+Total: 34.125800 ms (FindLiveObjects: 2.419200 ms CreateObjectMapping: 0.964600 ms MarkObjects: 25.890200 ms  DeleteObjects: 4.848300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 369710.404437 seconds.
+  path: Assets/Scenes/Initial Scene/GPGS Sign In Scene.unity
+  artifactKey: Guid(01cd2e303ee31a84ab4603a9c3a34e72) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes/Initial Scene/GPGS Sign In Scene.unity using Guid(01cd2e303ee31a84ab4603a9c3a34e72) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '9944e2639798f44ff07d8aea4960b4a1') in 0.8219683 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Scenes/Levels/Level 10.unity
+  artifactKey: Guid(06b5730878f06d94791bde426f879268) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes/Levels/Level 10.unity using Guid(06b5730878f06d94791bde426f879268) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '0cbdfa9f00794db7f4e9f8206e780233') in 0.0416321 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000176 seconds.
+  path: Assets/Scenes/Levels/Level 15.unity
+  artifactKey: Guid(a6b4248a1eb545d4ba8c24c5a37e903c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes/Levels/Level 15.unity using Guid(a6b4248a1eb545d4ba8c24c5a37e903c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '096df3170569532fb5f224b8042c6537') in 0.0374598 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/AddressableAssetsData/DataBuilders/BuildScriptPackedPlayMode.asset
+  artifactKey: Guid(9ae6d17cec2c642489474803539d666a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AddressableAssetsData/DataBuilders/BuildScriptPackedPlayMode.asset using Guid(9ae6d17cec2c642489474803539d666a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '02f79eda1256777b05c60c170e630f8f') in 0.0370821 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Scenes/Levels/Level 35.unity
+  artifactKey: Guid(af073a26a20d14945a0a2abe165bb065) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes/Levels/Level 35.unity using Guid(af073a26a20d14945a0a2abe165bb065) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '947c99d57352bf0a930de556141c5830') in 0.034162 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/LunarConsole/Editor/LunarConsoleEditor.cs
+  artifactKey: Guid(72aa95937955643f38d2aa18bc8898c2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LunarConsole/Editor/LunarConsoleEditor.cs using Guid(72aa95937955643f38d2aa18bc8898c2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '01cd29de2b56da32ebe4040e73c1c871') in 0.0355396 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/LunarConsole/Editor/Autorun.cs
+  artifactKey: Guid(a76cb7272dee04012a51d51648e95531) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LunarConsole/Editor/Autorun.cs using Guid(a76cb7272dee04012a51d51648e95531) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '92e8e9662abdf6440319d165199576bc') in 0.0384261 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Scenes/Levels/Level 34.unity
+  artifactKey: Guid(753f89609c9c7e947a2a5db777b2447c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes/Levels/Level 34.unity using Guid(753f89609c9c7e947a2a5db777b2447c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'aefaa77896b84393945d63c14bc38fb6') in 0.0367172 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Scenes/Levels/Level 6.unity
+  artifactKey: Guid(4137b0d4744e4bb40848227cb7a0260a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes/Levels/Level 6.unity using Guid(4137b0d4744e4bb40848227cb7a0260a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '189dab4dd64c582843344257ea4c3e47') in 0.0371461 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Lean/READ ME.txt
+  artifactKey: Guid(f6ff8a5c80a68bc458c5d91349bf10ed) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Lean/READ ME.txt using Guid(f6ff8a5c80a68bc458c5d91349bf10ed) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '7812c8b8f818799d1106f0359f837691') in 0.0403172 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Scenes/Levels/Level 45.unity
+  artifactKey: Guid(53e3f3d6344c2dc469a3ceff8524bc49) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes/Levels/Level 45.unity using Guid(53e3f3d6344c2dc469a3ceff8524bc49) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '72ad93a8dc6855dc6e27f3d494bd51cc') in 0.0375964 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/AddressableAssetsData/DataBuilders/BuildScriptPackedMode.asset
+  artifactKey: Guid(616bdcf0371ef2245a558bd6842a76fc) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AddressableAssetsData/DataBuilders/BuildScriptPackedMode.asset using Guid(616bdcf0371ef2245a558bd6842a76fc) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '7b75c91a66dc079e79e7c1166b1afb51') in 0.0380247 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Scenes/Initial Scene/GPGS Sign In Scene.unity
+  artifactKey: Guid(01cd2e303ee31a84ab4603a9c3a34e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Initial Scene/GPGS Sign In Scene.unity using Guid(01cd2e303ee31a84ab4603a9c3a34e72) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '3a158bfa236f0c701157917a05d1f9d7') in 0.0034946 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scenes/Levels/Level 11.unity
+  artifactKey: Guid(de93ce64df2f0834292776639bc33ca1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes/Levels/Level 11.unity using Guid(de93ce64df2f0834292776639bc33ca1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '5a23af7e1e6fb552448b0e1e8ff45782') in 0.0278121 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/AddressableAssetsData/DataBuilders/BuildScriptVirtualMode.asset
+  artifactKey: Guid(9874776467f116b4d97904d3f4979630) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AddressableAssetsData/DataBuilders/BuildScriptVirtualMode.asset using Guid(9874776467f116b4d97904d3f4979630) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'f79ea191bccb1364bbd7395d8821e456') in 0.027328 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Scenes/Levels/Level 69.unity
+  artifactKey: Guid(cdb6932f122e9b541909b60af0ee1510) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes/Levels/Level 69.unity using Guid(cdb6932f122e9b541909b60af0ee1510) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '590d6ea4aea8da08e055764e5ef535c0') in 0.0250304 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002031 seconds.
+  path: Assets/Scenes/Levels/Level 95.unity
+  artifactKey: Guid(c7bd5cca4f1ee1c49b5d9fb03d51ff8d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes/Levels/Level 95.unity using Guid(c7bd5cca4f1ee1c49b5d9fb03d51ff8d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'b211517ae530439f9fffed250e60e67f') in 0.0288889 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000095 seconds.
+  path: Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf
+  artifactKey: Guid(1b8d251f9af63b746bf2f7ffe00ebb9b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Documentation/TextMesh Pro User Guide 2016.pdf using Guid(1b8d251f9af63b746bf2f7ffe00ebb9b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'a2d87a7df3496ce5907479b215469fd6') in 0.0295113 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans.ttf
+  artifactKey: Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans.ttf using Guid(e3265ab4bf004d28a9537516768c1c75) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'a9fa30b56d3245431f26b1aa6fae07fd') in 0.0587488 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt
+  artifactKey: Guid(d82c1b31c7e74239bff1220585707d2b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Resources/LineBreaking Leading Characters.txt using Guid(d82c1b31c7e74239bff1220585707d2b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '71f43f16b839a8a891b377e60f96daa7') in 0.0266457 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl
+  artifactKey: Guid(96de908384869cd409c75efa351d5edf) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Shaders/SDFFunctions.hlsl using Guid(96de908384869cd409c75efa351d5edf) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '10d61e8da34892e5e315d81e585c5118') in 0.0285622 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Scenes/Levels/Level 24.unity
+  artifactKey: Guid(a36a05e169375134c913e4bb22601d51) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes/Levels/Level 24.unity using Guid(a36a05e169375134c913e4bb22601d51) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '5aab7d39b34a72c72f5b7aac9da56879') in 0.0309406 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Scenes/Levels/Level 81.unity
+  artifactKey: Guid(dd66317985fde2a458b612fbfb0ab02b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes/Levels/Level 81.unity using Guid(dd66317985fde2a458b612fbfb0ab02b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '39aa37c97f109f569c766b5f60a85944') in 0.0363669 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc
+  artifactKey: Guid(3997e2241185407d80309a82f9148466) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Shaders/TMPro_Properties.cginc using Guid(3997e2241185407d80309a82f9148466) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '901bf730ecfc6e32458778ad2a3c9ca1') in 0.0237302 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader
+  artifactKey: Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Surface-Mobile.shader using Guid(85187c2149c549c5b33f0cdb02836b17) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '497758b71223468bfc396c904102405f') in 0.0455213 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/_Assets/Custome Assets/2-2.png
+  artifactKey: Guid(8fef3d6ba28735b49a10c9fef302a5cc) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Assets/Custome Assets/2-2.png using Guid(8fef3d6ba28735b49a10c9fef302a5cc) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '1a3d1fd883676977995f37f5cc93a5b6') in 0.0780301 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/_Assets/Audios/0_Coin 2.wav
+  artifactKey: Guid(f8d04153859db964e905f6786cf9b7f8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Assets/Audios/0_Coin 2.wav using Guid(f8d04153859db964e905f6786cf9b7f8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '55d4100b4181155502667c025b74b434') in 0.0398155 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader
+  artifactKey: Guid(0178fcb869bafef4690d177d31d17db8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile-2-Pass.shader using Guid(0178fcb869bafef4690d177d31d17db8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '18cc7c356f9c722c45c0d2a6bdd4a4d3') in 0.0460839 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Scenes/Levels/Level 48.unity
+  artifactKey: Guid(23d3f68827049a047a8032d479bd4205) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes/Levels/Level 48.unity using Guid(23d3f68827049a047a8032d479bd4205) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '0836ca646e2cec40e96a1e1f936f1176') in 0.05853 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/AddressableAssetsData/AssetGroups/Schemas/Localization-String-Tables-English (en)_BundledAssetGroupSchema.asset
+  artifactKey: Guid(b1b5d47348db7bd4898e45836ad6df10) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AddressableAssetsData/AssetGroups/Schemas/Localization-String-Tables-English (en)_BundledAssetGroupSchema.asset using Guid(b1b5d47348db7bd4898e45836ad6df10) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '729e0ea380905ddddb1a5a99c3b1f35d') in 0.0304127 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/_Assets/Custome Assets/New Red Bowl Bottom.png
+  artifactKey: Guid(08ace383465019a42afd8fd88bfc510e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Assets/Custome Assets/New Red Bowl Bottom.png using Guid(08ace383465019a42afd8fd88bfc510e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '1e94f223b19d47f6f8405ea3ba6e7cfa') in 0.0317693 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/_Assets/Custome Assets/New Blue Egg.png
+  artifactKey: Guid(c1ac396ff4ec86a4a95d41dc7a78961a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Assets/Custome Assets/New Blue Egg.png using Guid(c1ac396ff4ec86a4a95d41dc7a78961a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '855bdec73df5c9733607281bc39d9e7f') in 0.0330419 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/_Assets/Custome Assets/New Blue Egg Cracked.png
+  artifactKey: Guid(79739585e70d0c846b43882a7a132c3b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Assets/Custome Assets/New Blue Egg Cracked.png using Guid(79739585e70d0c846b43882a7a132c3b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'db21b39f2b871675233cd50cda6a3bb6') in 0.029469 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Scenes/Levels/Level 85.unity
+  artifactKey: Guid(fd7846cbe7ab9424cb090d7d26d5aca8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes/Levels/Level 85.unity using Guid(fd7846cbe7ab9424cb090d7d26d5aca8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '9fba97f4fc0f170d5eb59c80cdf18e93') in 0.0231522 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/LunarConsole/Editor/Updater.cs
+  artifactKey: Guid(fb51c0db153dd4064a9cdb951f7cbcc9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LunarConsole/Editor/Updater.cs using Guid(fb51c0db153dd4064a9cdb951f7cbcc9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '5ba0ec3990aa53f588e2e255fe51e2c0') in 0.0244279 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt
+  artifactKey: Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Fonts/LiberationSans - OFL.txt using Guid(6e59c59b81ab47f9b6ec5781fa725d2c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '20f4eaeeb99605937057bd8f74ec2e5a') in 0.0277105 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Settings/UniversalRenderPipelineAsset_Renderer.asset
+  artifactKey: Guid(efa5b510da1c9e842bb55f8e9f009a93) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Settings/UniversalRenderPipelineAsset_Renderer.asset using Guid(efa5b510da1c9e842bb55f8e9f009a93) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '42ae5145dd890f8c7dec0c55c7fdf019') in 0.0333903 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/AddressableAssetsData/AssetGroups/Schemas/Localization-String-Tables-English (United Kingdom) (en-GB)_ContentUpdateGroupSchema.asset
+  artifactKey: Guid(3671d0374368ac546a6e9b24e712d3f6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AddressableAssetsData/AssetGroups/Schemas/Localization-String-Tables-English (United Kingdom) (en-GB)_ContentUpdateGroupSchema.asset using Guid(3671d0374368ac546a6e9b24e712d3f6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '49b2432978ca130dd8b175c684b5429e') in 0.0445533 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Lean/Localization/Documentation/Documentation.html
+  artifactKey: Guid(f1df6224418ffab4a826524335129c5b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Lean/Localization/Documentation/Documentation.html using Guid(f1df6224418ffab4a826524335129c5b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '67d5d5329106463980b1556f493a6b9c') in 0.0394333 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Lean/Localization/Examples/05 Image.unity
+  artifactKey: Guid(fcac539a22d6e344cb6f7e52d9a49f10) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Lean/Localization/Examples/05 Image.unity using Guid(fcac539a22d6e344cb6f7e52d9a49f10) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '3ecbc862b06388855b05b1e7e92e4ac4') in 0.031505 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/AddressableAssetsData/AssetGroups/Schemas/Localization-String-Tables-Portuguese (Brazil) (pt-BR)_BundledAssetGroupSchema.asset
+  artifactKey: Guid(8ef927822097901468f451892e7c5f0e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/AddressableAssetsData/AssetGroups/Schemas/Localization-String-Tables-Portuguese (Brazil) (pt-BR)_BundledAssetGroupSchema.asset using Guid(8ef927822097901468f451892e7c5f0e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '0c10092ff4aee8e55ff44404f0702015') in 0.0358721 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Lean/Localization/Languages/Chinese.prefab
+  artifactKey: Guid(0b402d229c8451245b63baec8f5eee3a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Lean/Localization/Languages/Chinese.prefab using Guid(0b402d229c8451245b63baec8f5eee3a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '72b0ad65c31ac59b1451750e0a945651') in 0.0546576 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Lean/Localization/Scripts/LeanLocalization.cs
+  artifactKey: Guid(806f0696300aeac44a0e17efee222854) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Lean/Localization/Scripts/LeanLocalization.cs using Guid(806f0696300aeac44a0e17efee222854) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'cd28cc26c2596706b93b4a1f7a5eb3f3') in 0.0622935 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Lean/Localization/Languages/Russian.prefab
+  artifactKey: Guid(adef00e2be323654ca5fa825a2cc3c72) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Lean/Localization/Languages/Russian.prefab using Guid(adef00e2be323654ca5fa825a2cc3c72) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '5197896e069b9fadcc790d3619018656') in 0.0866172 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Lean/Common/Scripts/LeanHelper.cs
+  artifactKey: Guid(74ff7c06330793042a1bb0a7fc0accb5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Lean/Common/Scripts/LeanHelper.cs using Guid(74ff7c06330793042a1bb0a7fc0accb5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '1113e14137159d8803308eea367c0619') in 0.1013317 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/LunarConsole/Scripts/Legacy/LunarConsoleLegacyActions.cs
+  artifactKey: Guid(d9ca3326e330843bc825ea966b3d15c6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LunarConsole/Scripts/Legacy/LunarConsoleLegacyActions.cs using Guid(d9ca3326e330843bc825ea966b3d15c6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '1be7f0c4735b73ea2b095073efff74a3') in 0.1316954 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/LunarConsole/Editor/UI/ActionsAndVariablesWindow.cs
+  artifactKey: Guid(89dfa70a569d141ed914e17534c3744a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LunarConsole/Editor/UI/ActionsAndVariablesWindow.cs using Guid(89dfa70a569d141ed914e17534c3744a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'f5b1b3b3c23cf4d1a43c90f15db69004') in 0.0458213 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/LunarConsole/Scripts/Utils/ReflectionUtils.cs
+  artifactKey: Guid(1e20f19d8258b455bba5e611711636e7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LunarConsole/Scripts/Utils/ReflectionUtils.cs using Guid(1e20f19d8258b455bba5e611711636e7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'b4c838b4391ef6cb16cc849b891baa17') in 0.0450146 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Plugins/Pixelplacement/iTween/iTween.cs
+  artifactKey: Guid(521257714fc9e437a9163df2d37f2ea2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Plugins/Pixelplacement/iTween/iTween.cs using Guid(521257714fc9e437a9163df2d37f2ea2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '3049c5dc2778a6482aa9ae395a8908da') in 0.0674119 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/Lean/Localization/Examples/02 Phrase.unity
+  artifactKey: Guid(5b95476ffbccd1946b71c04e2a987e17) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Lean/Localization/Examples/02 Phrase.unity using Guid(5b95476ffbccd1946b71c04e2a987e17) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '08f0bc8b84e91e2ed6ba4e2c1f634c8c') in 0.039898 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset
+  artifactKey: Guid(f952c082cb03451daed3ee968ac6c63e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Resources/Style Sheets/Default Style Sheet.asset using Guid(f952c082cb03451daed3ee968ac6c63e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '4b39d4ff0af4eed1ded036dc18a93d7e') in 0.0456298 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/_Assets/Prefab/Debug Controller/Debug Manager.prefab
+  artifactKey: Guid(a5160ce77a429ea40988f7a205f7da1b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Assets/Prefab/Debug Controller/Debug Manager.prefab using Guid(a5160ce77a429ea40988f7a205f7da1b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'a5e37c139d32f1fadd81eb590e4b49a1') in 0.1449664 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 73
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/_Assets/Custome Assets/gameplay sprite/cloud_bottom.PNG
+  artifactKey: Guid(1fc84ddab6bc4b647bc98836cf4f1aa5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Assets/Custome Assets/gameplay sprite/cloud_bottom.PNG using Guid(1fc84ddab6bc4b647bc98836cf4f1aa5) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'af57fbdbba26e0f6f5428445344d2c35') in 0.0674181 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Lean/Localization/Scripts/LeanLocalizedBehaviour.cs
+  artifactKey: Guid(1fbd7e2a5aacea442bccddc4c9c84fa9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Lean/Localization/Scripts/LeanLocalizedBehaviour.cs using Guid(1fbd7e2a5aacea442bccddc4c9c84fa9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '72b449ca71cec4e58195474a5db5b4ca') in 0.0321252 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/_Assets/Prefab/Others/pf_ Coin.prefab
+  artifactKey: Guid(772f82bc3480dd74781e7059d6c1f5e3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Assets/Prefab/Others/pf_ Coin.prefab using Guid(772f82bc3480dd74781e7059d6c1f5e3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'c04bcd55231694171e7a6d4cc0e39845') in 0.0649466 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 16
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/_Assets/Scriptable Objects/Level Data/Level 17.asset
+  artifactKey: Guid(5f49fdbbc9718614a91de86edae1745f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Assets/Scriptable Objects/Level Data/Level 17.asset using Guid(5f49fdbbc9718614a91de86edae1745f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '60458ad70f8b84823889fb8135ccfed9') in 0.0800986 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 266
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_Assets/Scriptable Objects/Level Data/Level 16.asset
+  artifactKey: Guid(b20385c934fe4cf4f80f9cd88c3b8740) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Assets/Scriptable Objects/Level Data/Level 16.asset using Guid(b20385c934fe4cf4f80f9cd88c3b8740) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '24dcc6ada140f310ff1128275b475886') in 0.0627806 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 266
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/_Assets/Scriptable Objects/Level Data/Level 12.asset
+  artifactKey: Guid(c22e3a4e27b469a489ed73b9e70634f8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Assets/Scriptable Objects/Level Data/Level 12.asset using Guid(c22e3a4e27b469a489ed73b9e70634f8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '47f1c16ed089195ce46a212da08ea165') in 0.0669733 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 266
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/_Assets/Scriptable Objects/Level Data/Level 33.asset
+  artifactKey: Guid(e3ad7ea7147b2214ba60ad56c54470ab) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Assets/Scriptable Objects/Level Data/Level 33.asset using Guid(e3ad7ea7147b2214ba60ad56c54470ab) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '988b5d69966a0af6c9eee0fefce0c3d9') in 0.0647877 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 312
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/_Assets/Scriptable Objects/Level Data/Level 37.asset
+  artifactKey: Guid(6c0e112eb5c589e418de93374f2ad225) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Assets/Scriptable Objects/Level Data/Level 37.asset using Guid(6c0e112eb5c589e418de93374f2ad225) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'd7e52def1746f2d0badd1e467d23827a') in 0.0685815 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 312
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/_Assets/Scriptable Objects/Level Data/Level 26.asset
+  artifactKey: Guid(1e05ff599ecd9a749b049ae6631db9a1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Assets/Scriptable Objects/Level Data/Level 26.asset using Guid(1e05ff599ecd9a749b049ae6631db9a1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '2364e77f59675e9f4e1d0fa432c26f2b') in 0.0571596 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 312
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Lean/Localization/Languages/Arabic.prefab
+  artifactKey: Guid(72791d95cee660147917361f531f775b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Lean/Localization/Languages/Arabic.prefab using Guid(72791d95cee660147917361f531f775b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'ae3cec67af0a2988a85e65df24f5b80c') in 0.0339217 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Lean/Localization/Scripts/LeanSource.cs
+  artifactKey: Guid(f0fcf02b7e3c0524a84d768d686b3634) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Lean/Localization/Scripts/LeanSource.cs using Guid(f0fcf02b7e3c0524a84d768d686b3634) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '2b5bd8cb54de7bf6274639621313cbab') in 0.0312334 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/_Assets/Scriptable Objects/Level Data/Level 5.asset
+  artifactKey: Guid(5b31084775483504c99d034422cc6b54) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Assets/Scriptable Objects/Level Data/Level 5.asset using Guid(5b31084775483504c99d034422cc6b54) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '9aa12c59fc15a1967235f9d4432205f8') in 0.0440866 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 90
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/_Assets/Scriptable Objects/Level Data/Level 60.asset
+  artifactKey: Guid(3a66b820efbf3d742a60330e85a1ac4f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Assets/Scriptable Objects/Level Data/Level 60.asset using Guid(3a66b820efbf3d742a60330e85a1ac4f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'e9b8fe87d60fe481a828767140f615a5') in 0.0545834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 312
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/_Assets/Scriptable Objects/Level Data/Level 57.asset
+  artifactKey: Guid(ebf116b4500cf0744b65406950de2afd) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Assets/Scriptable Objects/Level Data/Level 57.asset using Guid(ebf116b4500cf0744b65406950de2afd) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '9c6e9f9d1cc3feda1ba613a30cf2ed77') in 0.0692272 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 312
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/_Assets/Scriptable Objects/Level Data/Level 42.asset
+  artifactKey: Guid(bf3fd8fff896d3645bdaddab8f0f2b1c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Assets/Scriptable Objects/Level Data/Level 42.asset using Guid(bf3fd8fff896d3645bdaddab8f0f2b1c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'b8a0d7435299caaf659f4d5d1b8b9806') in 0.0680098 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 312
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/_Assets/Scriptable Objects/Level Data/Level 70.asset
+  artifactKey: Guid(876cc33b8c319aa4cb30a99d8dc31330) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Assets/Scriptable Objects/Level Data/Level 70.asset using Guid(876cc33b8c319aa4cb30a99d8dc31330) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '05abd37cf2242857d366727e5d179efe') in 0.0646522 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 312
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/_Assets/Scriptable Objects/Level Data/Level 71.asset
+  artifactKey: Guid(a587e9be7e7deb24990dbc08888afe3b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Assets/Scriptable Objects/Level Data/Level 71.asset using Guid(a587e9be7e7deb24990dbc08888afe3b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'fdd15f5cc6af6faf1ee6715507aba042') in 0.073036 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 312
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/_Assets/Scriptable Objects/Level Data/Level 79.asset
+  artifactKey: Guid(fcc02eb09caf07a4096e0e368f69a613) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Assets/Scriptable Objects/Level Data/Level 79.asset using Guid(fcc02eb09caf07a4096e0e368f69a613) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '12f1527b3662e685da667a01aca9ea0e') in 0.0780306 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 312
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000934 seconds.
+  path: Assets/_Assets/Scriptable Objects/Level Data/Level 83.asset
+  artifactKey: Guid(455ec8aad15f2c9458a23cafdc303e09) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Assets/Scriptable Objects/Level Data/Level 83.asset using Guid(455ec8aad15f2c9458a23cafdc303e09) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '02b647a1a4d5dfe4c9d99898f9d8b00f') in 0.086489 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 312
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat
+  artifactKey: Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Resources/Fonts & Materials/LiberationSans SDF - Drop Shadow.mat using Guid(e73a58f6e2794ae7b1b7e50b7fb811b0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'a04e6c224f867d70ce3f430bc014fb7d') in 0.0300156 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000991 seconds.
+  path: Assets/_Assets/Scriptable Objects/Level Data/Level 58.asset
+  artifactKey: Guid(0744e9f14d74c054497a4fb787bd7605) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Assets/Scriptable Objects/Level Data/Level 58.asset using Guid(0744e9f14d74c054497a4fb787bd7605) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'd6a8b364526c5cfb0c468ad1ce70d956') in 0.0882726 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 312
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/_Assets/Scripts/Bowl/StationeyBowls.cs
+  artifactKey: Guid(3eb13d52d752a0945bbb8e56e04e381d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Assets/Scripts/Bowl/StationeyBowls.cs using Guid(3eb13d52d752a0945bbb8e56e04e381d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'a62ac61a0d166c65ae98e00e5a9d705f') in 0.0253652 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/_Assets/Scripts/Bowl/MovingBowls.cs
+  artifactKey: Guid(88d69287c16b0754f82c297e324e3251) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Assets/Scripts/Bowl/MovingBowls.cs using Guid(88d69287c16b0754f82c297e324e3251) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '9fc1dc7f3907fdac38059f85325782fc') in 0.0377689 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/_Assets/Custome Assets/New Green Bowl Bottom.png
+  artifactKey: Guid(f0925e6775cad6f4797bd829af16ab39) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Assets/Custome Assets/New Green Bowl Bottom.png using Guid(f0925e6775cad6f4797bd829af16ab39) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'b6eb15bf18a4a42d68e940e91b2e2f4d') in 0.0355431 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000226 seconds.
+  path: Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt
+  artifactKey: Guid(fade42e8bc714b018fac513c043d323b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt using Guid(fade42e8bc714b018fac513c043d323b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '67af16d55a3eaed13ae3de0419439f59') in 0.0380815 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/_Assets/Scripts/Utility Scripts/LevelLoader.cs
+  artifactKey: Guid(19b37361bf8708c4cbaa92450fcb1a1f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Assets/Scripts/Utility Scripts/LevelLoader.cs using Guid(19b37361bf8708c4cbaa92450fcb1a1f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '4fbe224cb78d45e6e75ac020f8222c67') in 0.0274304 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Scenes/Levels/Level 22.unity
+  artifactKey: Guid(4c1a3eb3697b6484184932243415379f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes/Levels/Level 22.unity using Guid(4c1a3eb3697b6484184932243415379f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '81ef4ca072a270485e25d0769d44ef53') in 0.0392991 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/_Assets/Scriptable Objects/Level Data/Level 93.asset
+  artifactKey: Guid(9b4b330dfc9b6dc4185e7cb75086fb41) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Assets/Scriptable Objects/Level Data/Level 93.asset using Guid(9b4b330dfc9b6dc4185e7cb75086fb41) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'aa7462d46de47ca445d534801f12dfac') in 0.0654135 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 312
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Scenes/Levels/Level 39.unity
+  artifactKey: Guid(189e9c767928dfd4892e16417fdc533f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes/Levels/Level 39.unity using Guid(189e9c767928dfd4892e16417fdc533f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '14b27518ff03ed4819427326bb050ae7') in 0.0420785 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000334 seconds.
+  path: Assets/Lean/Localization/Examples/01 Localization.unity
+  artifactKey: Guid(8a962b27f87d08e46a190c2a75f9a911) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Lean/Localization/Examples/01 Localization.unity using Guid(8a962b27f87d08e46a190c2a75f9a911) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'c418594434b597a8b7f756665dd4ce31') in 0.0325422 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000092 seconds.
+  path: Assets/Lean/Common/Examples/Fonts/VarelaRound-Regular.ttf
+  artifactKey: Guid(d54323c94c164de478170d5e7d0273be) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Lean/Common/Examples/Fonts/VarelaRound-Regular.ttf using Guid(d54323c94c164de478170d5e7d0273be) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '96de00781cb8914219cca7275b26dfe6') in 0.0372291 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/_Assets/Scripts/UI Scripts/UIButtonSound.cs
+  artifactKey: Guid(cd0e745b8e02abd448bbcf49bd159534) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Assets/Scripts/UI Scripts/UIButtonSound.cs using Guid(cd0e745b8e02abd448bbcf49bd159534) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '0fe3e9b8ca0c27d92ec95bd41d5ba3d4') in 0.0341589 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Scenes/Levels/Level 97.unity
+  artifactKey: Guid(e97792dd2cb038d4e8a368ffeb901f46) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes/Levels/Level 97.unity using Guid(e97792dd2cb038d4e8a368ffeb901f46) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '2ffc96155b9cc9759a6a404037e1f46c') in 0.0323207 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/_Assets/Scriptable Objects/Level Data/Level 82.asset
+  artifactKey: Guid(96709660f206c4940a864378cf146921) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Assets/Scriptable Objects/Level Data/Level 82.asset using Guid(96709660f206c4940a864378cf146921) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'cd20273fa7fb8a4b81d3f79ddf3a9dad') in 0.064634 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 312
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Lean/Common/Examples/Scripts/LeanLinkTo.cs
+  artifactKey: Guid(ae8f233b40abd2c4f9deab4ffe64baad) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Lean/Common/Examples/Scripts/LeanLinkTo.cs using Guid(ae8f233b40abd2c4f9deab4ffe64baad) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '29ce7d36dd07c64a6116e399f0b9d5ad') in 0.0348026 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Lean/Common/Examples/Scripts/LeanUpgradeEventSystem.cs
+  artifactKey: Guid(8e751784a72fb1d4b896441ac1dbee98) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Lean/Common/Examples/Scripts/LeanUpgradeEventSystem.cs using Guid(8e751784a72fb1d4b896441ac1dbee98) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '79124d8e81e94cd1975a3452391582ae') in 0.029657 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Lean/Common/Examples/Materials/Circuit.mat
+  artifactKey: Guid(2fba2ab79a742fc4380f0e83399f9fb6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Lean/Common/Examples/Materials/Circuit.mat using Guid(2fba2ab79a742fc4380f0e83399f9fb6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '08b3ada57f160d7d2de9520ca1f427f1') in 0.0361528 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/_Assets/Scripts/Scritable Objects Scripts/SettingsSO.cs
+  artifactKey: Guid(448ce258b4984dd43a94e3156642a5d2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Assets/Scripts/Scritable Objects Scripts/SettingsSO.cs using Guid(448ce258b4984dd43a94e3156642a5d2) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'cd72661ce10f0dcd582aebb69f5cc772') in 0.0333062 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/_Assets/Scripts/Utility Scripts/SavingAndLoadingManager.cs
+  artifactKey: Guid(9d5e51a0d6334d94ab3bf1cfb65e6a35) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Assets/Scripts/Utility Scripts/SavingAndLoadingManager.cs using Guid(9d5e51a0d6334d94ab3bf1cfb65e6a35) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '868b590571a50f04a12c792ab82104b5') in 0.031004 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/_Assets/Scriptable Objects/Level Data/Level 76.asset
+  artifactKey: Guid(a758fc80c8f08614dba19ace64561501) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Assets/Scriptable Objects/Level Data/Level 76.asset using Guid(a758fc80c8f08614dba19ace64561501) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'bb74f50b441a8e2da1256c96a8c00bce') in 0.0676216 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 312
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Lean/Localization/Scripts/Behaviours/LeanLocalizedSpriteRenderer.cs
+  artifactKey: Guid(84f599809c9879044b69f17af8c248c6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Lean/Localization/Scripts/Behaviours/LeanLocalizedSpriteRenderer.cs using Guid(84f599809c9879044b69f17af8c248c6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '521f020e369fddf76d0f9267157b6540') in 0.036544 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000093 seconds.
+  path: Assets/_Assets/Custome Assets/Egg game assets/level complete/finger.png
+  artifactKey: Guid(167fb682494bd7f45898c4374b2f2408) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Assets/Custome Assets/Egg game assets/level complete/finger.png using Guid(167fb682494bd7f45898c4374b2f2408) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'ea5ca225306c57bd8272659e2fd4d2af') in 0.0391083 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Lean/Localization/Scripts/Behaviours/LeanLocalizedText.cs
+  artifactKey: Guid(7ee4021ce59f313499a5cab041f02aba) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Lean/Localization/Scripts/Behaviours/LeanLocalizedText.cs using Guid(7ee4021ce59f313499a5cab041f02aba) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '75551a03f81f570574704d56b9350652') in 0.0286723 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/_Assets/Animations/Ui Animaitons/Main Menu Play Button/Play Button.controller
+  artifactKey: Guid(e9014a04abde5b64f99db089001e062a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Assets/Animations/Ui Animaitons/Main Menu Play Button/Play Button.controller using Guid(e9014a04abde5b64f99db089001e062a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'c0ba7c2d3fc948d4be3caab2646dc521') in 0.054159 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 17
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/_Assets/Custome Assets/HoldMyEgg-Complete/GamePlayAssets/cloud_bottom.PNG
+  artifactKey: Guid(06e15af27017c5c4db5c66b010dadded) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Assets/Custome Assets/HoldMyEgg-Complete/GamePlayAssets/cloud_bottom.PNG using Guid(06e15af27017c5c4db5c66b010dadded) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'ff8ba2fc1f447498090836691f5e679f') in 0.0515994 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/_Assets/Custome Assets/HoldMyEgg-Complete/GamePlayAssets/ground_back.PNG
+  artifactKey: Guid(a366b4adf73463f43af5ef5db606ad66) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Assets/Custome Assets/HoldMyEgg-Complete/GamePlayAssets/ground_back.PNG using Guid(a366b4adf73463f43af5ef5db606ad66) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '821aa5fe30cd7ffbd6ddd04654b23951') in 0.0371202 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/_Assets/Custome Assets/HoldMyEgg-Complete/GamePlayAssets/background.JPG
+  artifactKey: Guid(06ffe5ec5e90bbf4795c5a9759aefe42) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Assets/Custome Assets/HoldMyEgg-Complete/GamePlayAssets/background.JPG using Guid(06ffe5ec5e90bbf4795c5a9759aefe42) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'd5fefb0cd6e0f198a9d75db72464f313') in 0.0424595 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/_Assets/Custome Assets/HoldMyEgg-Complete/GamePlayAssets/hen sprite.png
+  artifactKey: Guid(19744f6593e5a974492e39a18462cfbb) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Assets/Custome Assets/HoldMyEgg-Complete/GamePlayAssets/hen sprite.png using Guid(19744f6593e5a974492e39a18462cfbb) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '5ad6178ee647015e4ebe00796bdd292e') in 0.0512097 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/_Assets/Scripts/Utility Scripts/SetUiSafeArea.cs
+  artifactKey: Guid(28f6773c7dd88e148a24d1493bb1653c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Assets/Scripts/Utility Scripts/SetUiSafeArea.cs using Guid(28f6773c7dd88e148a24d1493bb1653c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '3b02e7198b5fd9a3c492c268a8b3e158') in 0.0362663 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/_Assets/Custome Assets/HoldMyEgg-Complete/Main Menu/cloud_3.PNG
+  artifactKey: Guid(0259d8f0f3ceac5478d902aa2e388690) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Assets/Custome Assets/HoldMyEgg-Complete/Main Menu/cloud_3.PNG using Guid(0259d8f0f3ceac5478d902aa2e388690) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '45a25c21313b66b32d8e538d79c278c3') in 0.0400213 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/_Assets/Custome Assets/HoldMyEgg-Complete/Main Menu/progress bar.PNG
+  artifactKey: Guid(a7b7d20183fcc98489b4d735a12cdf3b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Assets/Custome Assets/HoldMyEgg-Complete/Main Menu/progress bar.PNG using Guid(a7b7d20183fcc98489b4d735a12cdf3b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '16c0eb0b50dcbb0428cc223b08f08399') in 0.035929 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/_Assets/Custome Assets/HoldMyEgg-Complete/Main Menu/background.PNG
+  artifactKey: Guid(affaf75710784f24986d73bd90884ec3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Assets/Custome Assets/HoldMyEgg-Complete/Main Menu/background.PNG using Guid(affaf75710784f24986d73bd90884ec3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '8506a06f5d5afadcf8068067c55fe176') in 0.0630315 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/_Assets/Custome Assets/HoldMyEgg-Complete/Settings/icons.PNG
+  artifactKey: Guid(33711cc7cbea81a4082f556e6d684193) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Assets/Custome Assets/HoldMyEgg-Complete/Settings/icons.PNG using Guid(33711cc7cbea81a4082f556e6d684193) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'acfde836cea8755b1f1d34fa7e415713') in 0.0380264 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/_Assets/Fonts/Poppins/poppins/Poppins-ExtraLight.otf
+  artifactKey: Guid(a647689dec7ec4f46a178da84d9aa5dd) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Assets/Fonts/Poppins/poppins/Poppins-ExtraLight.otf using Guid(a647689dec7ec4f46a178da84d9aa5dd) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '861af1107a582d405f26da2c56ce4fb4') in 0.044237 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/_Assets/Fonts/Poppins/poppins/Poppins-MediumItalic.otf
+  artifactKey: Guid(073404a371a46a943a94f2c7d9664bfb) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Assets/Fonts/Poppins/poppins/Poppins-MediumItalic.otf using Guid(073404a371a46a943a94f2c7d9664bfb) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '40ff8368593a5c4b91e9a1c70a42c5fe') in 0.0351339 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/_Assets/Fonts/Custom Tmpro/Custome Assets for Poppins/Poppins-Thin.asset
+  artifactKey: Guid(272521b3efd74ba4886efa6963d5ffcf) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Assets/Fonts/Custom Tmpro/Custome Assets for Poppins/Poppins-Thin.asset using Guid(272521b3efd74ba4886efa6963d5ffcf) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '8fb0b382a6cb313622699b49a1413650') in 0.0437341 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/_Assets/Fonts/Poppins/poppins/Poppins-BoldItalic.otf
+  artifactKey: Guid(e770d5b42503f264eba5248411144ee9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Assets/Fonts/Poppins/poppins/Poppins-BoldItalic.otf using Guid(e770d5b42503f264eba5248411144ee9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'a29e5d00694c972c7445dfab4cd39fcb') in 0.0332924 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_Assets/Animations/Bird Animaitons/Bird Animations/Bird Joy Animations.anim
+  artifactKey: Guid(e226f62b7b2763f45926d5a300e1457d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Assets/Animations/Bird Animaitons/Bird Animations/Bird Joy Animations.anim using Guid(e226f62b7b2763f45926d5a300e1457d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'c8f9db8e08be93592e44c4f447bf4ba5') in 0.0425394 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/_Assets/Prefab/Bowls Prefabs/Bowls With Coins/pf_Green Stationery Bowl with coins.prefab
+  artifactKey: Guid(908c8119de4d12a43ab96fe9b2e02126) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Assets/Prefab/Bowls Prefabs/Bowls With Coins/pf_Green Stationery Bowl with coins.prefab using Guid(908c8119de4d12a43ab96fe9b2e02126) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'a75c734e3b86df6155eb61cb191b32ce') in 0.0406447 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/_Assets/Fonts/Poppins/poppins/SIL Open Font License.txt
+  artifactKey: Guid(1f6b3538cb7d2db4097b6a2df9eb3def) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Assets/Fonts/Poppins/poppins/SIL Open Font License.txt using Guid(1f6b3538cb7d2db4097b6a2df9eb3def) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'e156d1f7ec184f67d456a0540a23eca3') in 0.0293615 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/_Assets/Prefab/Bowls Prefabs/Bowls With Coins/pf_Red Moving Bowls with coins.prefab
+  artifactKey: Guid(79127f6c46039b3429b297f078fa9c87) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Assets/Prefab/Bowls Prefabs/Bowls With Coins/pf_Red Moving Bowls with coins.prefab using Guid(79127f6c46039b3429b297f078fa9c87) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '38af39476c5d04d33ab03c626b463a2e') in 0.0494402 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Lean/Localization/Scripts/Behaviours/TMP/LeanLocalizedTextMeshProFont.cs
+  artifactKey: Guid(a9069627d29f5d740930f36255c0ac86) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Lean/Localization/Scripts/Behaviours/TMP/LeanLocalizedTextMeshProFont.cs using Guid(a9069627d29f5d740930f36255c0ac86) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'c0d286a006b61e987ba379efcc20f43c') in 0.0327242 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/LunarConsole/Editor/iOS/Common/Console/LUConsole.h
+  artifactKey: Guid(44853f98f632549f0a5d0d0da54dc0cf) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LunarConsole/Editor/iOS/Common/Console/LUConsole.h using Guid(44853f98f632549f0a5d0d0da54dc0cf) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '8bc809e8bd4e1bd0c871a9e1cd014546') in 0.0355854 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/LunarConsole/Editor/iOS/Common/Console/LUConsoleController.h
+  artifactKey: Guid(981e16c0d82dc4e49ac57e3664f5e636) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LunarConsole/Editor/iOS/Common/Console/LUConsoleController.h using Guid(981e16c0d82dc4e49ac57e3664f5e636) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '84ca51b16599cc114ae99614c693b922') in 0.0348994 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/LunarConsole/Editor/iOS/Common/Images/lunar_console_collapse_background@2x.png
+  artifactKey: Guid(e5806cd988f0948f3a89bbf0ce6539a0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LunarConsole/Editor/iOS/Common/Images/lunar_console_collapse_background@2x.png using Guid(e5806cd988f0948f3a89bbf0ce6539a0) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '7e33159b3f01307595ae6317610cd983') in 0.0406153 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/LunarConsole/Editor/iOS/Common/Images/lunar_console_icon_button_clear@2x.png
+  artifactKey: Guid(1348939e0ea894435868aa490257e5f9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LunarConsole/Editor/iOS/Common/Images/lunar_console_icon_button_clear@2x.png using Guid(1348939e0ea894435868aa490257e5f9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '832d4598236a5cd6a873674848314c77') in 0.0374752 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Lean/Common/Examples/Scripts/LeanDemo.cs
+  artifactKey: Guid(a65dba056618ef244aa5f7a41138f642) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Lean/Common/Examples/Scripts/LeanDemo.cs using Guid(a65dba056618ef244aa5f7a41138f642) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '62ca63e126b6a25f5336d710a52d4551') in 0.0390326 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000073 seconds.
+  path: Assets/LunarConsole/Editor/iOS/Common/Images/lunar_console_icon_button_unlock@2x.png
+  artifactKey: Guid(5a559572263f845b898fcc40d4837486) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LunarConsole/Editor/iOS/Common/Images/lunar_console_icon_button_unlock@2x.png using Guid(5a559572263f845b898fcc40d4837486) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'a43c5d76ae3a2018ab7d4828a38ea730') in 0.0355762 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/LunarConsole/Editor/iOS/Common/Images/lunar_console_icon_button_email@3x.png
+  artifactKey: Guid(2063932157e9b43f28ebb60a0514b258) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LunarConsole/Editor/iOS/Common/Images/lunar_console_icon_button_email@3x.png using Guid(2063932157e9b43f28ebb60a0514b258) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'd4a4c2397bfcbc8ee884e5db10cd1610') in 0.0336035 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/LunarConsole/Editor/iOS/Common/Images/lunar_console_icon_button_help@2x.png
+  artifactKey: Guid(8737dee2a7cd84631b8e5ec091ae7318) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LunarConsole/Editor/iOS/Common/Images/lunar_console_icon_button_help@2x.png using Guid(8737dee2a7cd84631b8e5ec091ae7318) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '9d9a0a5e6f49f755da93b4a0b53dcf7b') in 0.0361892 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/LunarConsole/Editor/iOS/Common/Images/lunar_console_icon_button_lock@2x.png
+  artifactKey: Guid(57b983bec61444303aff095a84cc4441) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LunarConsole/Editor/iOS/Common/Images/lunar_console_icon_button_lock@2x.png using Guid(57b983bec61444303aff095a84cc4441) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '83bed6ac3955d2eb53fe68264b2cb4d3') in 0.0326951 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/LunarConsole/Editor/iOS/Common/Images/lunar_console_icon_log_error@2x.png
+  artifactKey: Guid(d44d8f5d6cef34151b2a07f709631dd1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LunarConsole/Editor/iOS/Common/Images/lunar_console_icon_log_error@2x.png using Guid(d44d8f5d6cef34151b2a07f709631dd1) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '77594a258e07d4d29e44543e652c690c') in 0.0379046 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001945 seconds.
+  path: Assets/LunarConsole/Editor/iOS/Common/Images/lunar_console_icon_log@3x.png
+  artifactKey: Guid(51bbbf7957bb647c98537da70d4ec657) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LunarConsole/Editor/iOS/Common/Images/lunar_console_icon_log@3x.png using Guid(51bbbf7957bb647c98537da70d4ec657) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '1cf460317d0b6df09cb17e80c17f4d91') in 0.0384181 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/LunarConsole/Editor/iOS/Common/Images/lunar_console_icon_log_error@3x.png
+  artifactKey: Guid(261171224981149ea99f11036ddd18e8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LunarConsole/Editor/iOS/Common/Images/lunar_console_icon_log_error@3x.png using Guid(261171224981149ea99f11036ddd18e8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'ffd240d67a8d513299d97711ebc55c6e') in 0.0298082 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000214 seconds.
+  path: Assets/LunarConsole/Editor/iOS/Common/Images/lunar_console_resize_handle_vertical.png
+  artifactKey: Guid(18fb9fb97701b48d2a6fbe7542d4ab96) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LunarConsole/Editor/iOS/Common/Images/lunar_console_resize_handle_vertical.png using Guid(18fb9fb97701b48d2a6fbe7542d4ab96) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'f357ecba4c74ac224407e9875141a111') in 0.0485226 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/LunarConsole/Editor/iOS/Common/Images/lunar_console_icon_button_email@2x.png
+  artifactKey: Guid(2f5e03d74135e49fcbf69806d3f6325c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LunarConsole/Editor/iOS/Common/Images/lunar_console_icon_button_email@2x.png using Guid(2f5e03d74135e49fcbf69806d3f6325c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'deaedb6a4deabbf49e4ebb7b0bab76dc') in 0.0457534 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/LunarConsole/Editor/iOS/Common/UI/LUSlider.h
+  artifactKey: Guid(409675703489b4f819e799f41caeb540) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LunarConsole/Editor/iOS/Common/UI/LUSlider.h using Guid(409675703489b4f819e799f41caeb540) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '71f299e853470f76e9f4390b3de526fe') in 0.0571755 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/LunarConsole/Editor/iOS/Common/UI/LUPassTouchView.h
+  artifactKey: Guid(12a913616ada74fe7b57af135bd54ef3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LunarConsole/Editor/iOS/Common/UI/LUPassTouchView.h using Guid(12a913616ada74fe7b57af135bd54ef3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '19037071ed91d83ec7b2d58f47aef2e9') in 0.0406032 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/LunarConsole/Editor/iOS/Common/UI/LUUIHelper.h
+  artifactKey: Guid(a42eae1c9d740439fa853a94962a1899) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LunarConsole/Editor/iOS/Common/UI/LUUIHelper.h using Guid(a42eae1c9d740439fa853a94962a1899) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '8fd4c6889ee41866bd93e07ef1619e48') in 0.0374029 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/LunarConsole/Editor/iOS/Common/Utils/LUAvailability.m
+  artifactKey: Guid(9f6b7195202544b6992e32d706c95e37) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LunarConsole/Editor/iOS/Common/Utils/LUAvailability.m using Guid(9f6b7195202544b6992e32d706c95e37) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'e9931efb233e33351cc1d6c8aeafd54d') in 0.0346457 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000061 seconds.
+  path: Assets/LunarConsole/Editor/iOS/Common/Utils/LUDefines.h
+  artifactKey: Guid(290c1b230d356429d8783e050fdb2f12) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LunarConsole/Editor/iOS/Common/Utils/LUDefines.h using Guid(290c1b230d356429d8783e050fdb2f12) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '317c14c50cdabe9024a739f194ff15c1') in 0.0495857 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/LunarConsole/Editor/iOS/Common/UI/LUTextField.m
+  artifactKey: Guid(f124f583bb8b34502945bfabccc60941) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LunarConsole/Editor/iOS/Common/UI/LUTextField.m using Guid(f124f583bb8b34502945bfabccc60941) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '1e2fd175ede07f1697d4ccb396698052') in 0.0371132 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/LunarConsole/Editor/iOS/Common/Utils/LUUtils.h
+  artifactKey: Guid(fe79a3b4a818c492089155405cfbdd82) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LunarConsole/Editor/iOS/Common/Utils/LUUtils.h using Guid(fe79a3b4a818c492089155405cfbdd82) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '1f36e5488e951055156afa61e5197035') in 0.0288941 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/LunarConsole/Editor/iOS/Common/Utils/LUThreading.m
+  artifactKey: Guid(0542e5d672aed44849002d62477a6c8b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LunarConsole/Editor/iOS/Common/Utils/LUThreading.m using Guid(0542e5d672aed44849002d62477a6c8b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '1420947a8436ade17da4dd0cb1cc4630') in 0.0285793 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/LunarConsole/Editor/iOS/Common/Utils/LUSerializationUtils.h
+  artifactKey: Guid(d1d6db81101a7474a9d1d13d3c25b570) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LunarConsole/Editor/iOS/Common/Utils/LUSerializationUtils.h using Guid(d1d6db81101a7474a9d1d13d3c25b570) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '212642dc7d929f907058653748611d2b') in 0.0396677 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/_Assets/Custome Assets/Egg game assets/level complete/HoldMYEgg Assets/egg.png
+  artifactKey: Guid(e0478897101c78b4b9dd584ef9135c13) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Assets/Custome Assets/Egg game assets/level complete/HoldMYEgg Assets/egg.png using Guid(e0478897101c78b4b9dd584ef9135c13) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '128b923f2c9b13f66ae66473ed559232') in 0.049415 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/LunarConsole/Editor/iOS/Common/UI/LUTableView.m
+  artifactKey: Guid(957c3ff74202a44fd86c4ee879ceb8b9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LunarConsole/Editor/iOS/Common/UI/LUTableView.m using Guid(957c3ff74202a44fd86c4ee879ceb8b9) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'f80529003384d5efb2a1bdfed8d7695f') in 0.0315465 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/_Assets/Custome Assets/Egg game assets/level complete/HoldMYEgg Assets/hen_sprite.png
+  artifactKey: Guid(113315e2a49185b4a87e52ab64b84672) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Assets/Custome Assets/Egg game assets/level complete/HoldMYEgg Assets/hen_sprite.png using Guid(113315e2a49185b4a87e52ab64b84672) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '2b12a2551be1709d6af3ebe563093d05') in 0.0508638 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/_Assets/Custome Assets/Egg game assets/level complete/HoldMYEgg Assets/hen_idel.png
+  artifactKey: Guid(238492e2e6021b242980a3b6f5fca056) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Assets/Custome Assets/Egg game assets/level complete/HoldMYEgg Assets/hen_idel.png using Guid(238492e2e6021b242980a3b6f5fca056) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '118aec141f3c8e6c2904c7509e70c991') in 0.0516254 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 10
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/LunarConsole/Editor/iOS/Common/Console/Log/LUConsoleLogDetailsController.m
+  artifactKey: Guid(f647e6138c6cd41ca9c8be34de125fd4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LunarConsole/Editor/iOS/Common/Console/Log/LUConsoleLogDetailsController.m using Guid(f647e6138c6cd41ca9c8be34de125fd4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'eaf222d374d95d5e6dd715dc58fa5f76') in 0.030272 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/LunarConsole/Editor/iOS/Common/Console/Log/LUConsoleLogDetailsController.h
+  artifactKey: Guid(be6a85afac95a492ab8bd414153e740b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LunarConsole/Editor/iOS/Common/Console/Log/LUConsoleLogDetailsController.h using Guid(be6a85afac95a492ab8bd414153e740b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '0ec7ef8a1ddab41f56663423f80e6c86') in 0.0352601 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/LunarConsole/Editor/iOS/Common/Console/Log/LUConsoleLogEntryList.h
+  artifactKey: Guid(509d758834a6f48139c0dc675922ef42) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LunarConsole/Editor/iOS/Common/Console/Log/LUConsoleLogEntryList.h using Guid(509d758834a6f48139c0dc675922ef42) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'e0e4813fe0e8e311668c0379c1cfe829') in 0.0318506 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/LunarConsole/Editor/iOS/Common/Console/Log/LUConsoleLogEntryList.m
+  artifactKey: Guid(9c1cbe636caa84d309e41a8b69bc0ff6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LunarConsole/Editor/iOS/Common/Console/Log/LUConsoleLogEntryList.m using Guid(9c1cbe636caa84d309e41a8b69bc0ff6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '632e8ac00e1c7fd498d7fe8f95cffbfd') in 0.0356168 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/LunarConsole/Editor/iOS/Common/Console/Log/LULogMessage.h
+  artifactKey: Guid(a0b58b207c19c4a14bd8d19bbef94a9b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LunarConsole/Editor/iOS/Common/Console/Log/LULogMessage.h using Guid(a0b58b207c19c4a14bd8d19bbef94a9b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '392c0d17deaf9d2ca5e5cc3971e7df82') in 0.0276609 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/LunarConsole/Editor/iOS/Common/Console/Log/LUConsoleLogMenuController.xib
+  artifactKey: Guid(95b75c43e321e45e194b2cf9f7e770d8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LunarConsole/Editor/iOS/Common/Console/Log/LUConsoleLogMenuController.xib using Guid(95b75c43e321e45e194b2cf9f7e770d8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'bf7b57b86f766433a3b6a19a3e329cb3') in 0.0280743 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/LunarConsole/Editor/iOS/Common/Console/Log/LUConsoleLogEntryLookupTable.m
+  artifactKey: Guid(cbe308afb884b4eccaa5b4f4820c0a98) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LunarConsole/Editor/iOS/Common/Console/Log/LUConsoleLogEntryLookupTable.m using Guid(cbe308afb884b4eccaa5b4f4820c0a98) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'eef668af362f15f2a5e36dfbda8e4090') in 0.0271769 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/LunarConsole/Editor/iOS/Common/Controllers/Popup/LUConsolePopupController.xib
+  artifactKey: Guid(231c6c7d69e8143f182c53f3d9f5c425) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LunarConsole/Editor/iOS/Common/Controllers/Popup/LUConsolePopupController.xib using Guid(231c6c7d69e8143f182c53f3d9f5c425) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '0ab32bfa2e9ed1d60a6bbb60f5dda2a7') in 0.0308078 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/LunarConsole/Editor/iOS/Common/Controllers/Settings/LUConsoleSettingsController.m
+  artifactKey: Guid(d7cb061dcc93d4e2dba8ced66289169d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LunarConsole/Editor/iOS/Common/Controllers/Settings/LUConsoleSettingsController.m using Guid(d7cb061dcc93d4e2dba8ced66289169d) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '7f36b2a04f119f75ee4c20b4359de1e9') in 0.0245053 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/LunarConsole/Editor/iOS/Common/Controllers/Resize/LUConsoleResizeController.m
+  artifactKey: Guid(3a4f60f7409bb4beaa06d366310f7b32) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LunarConsole/Editor/iOS/Common/Controllers/Resize/LUConsoleResizeController.m using Guid(3a4f60f7409bb4beaa06d366310f7b32) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '9cc387ab558a02c8e08ce7949765cf4f') in 0.0278072 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/LunarConsole/Editor/iOS/Common/Controllers/Resize/LUConsoleResizeController.xib
+  artifactKey: Guid(38fc6de473d16461fadfddbb8b3d907e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LunarConsole/Editor/iOS/Common/Controllers/Resize/LUConsoleResizeController.xib using Guid(38fc6de473d16461fadfddbb8b3d907e) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '72f2c6eaf5a1911a1964c822c3fc5cee') in 0.0331076 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/LunarConsole/Editor/iOS/Common/Controllers/Warning/LUExceptionWarningController.m
+  artifactKey: Guid(75b8f976b590842c7be6166b4af8ae12) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LunarConsole/Editor/iOS/Common/Controllers/Warning/LUExceptionWarningController.m using Guid(75b8f976b590842c7be6166b4af8ae12) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '0f0a344cfd7b3c35398a516f71069f4f') in 0.0314681 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/_Assets/Custome Assets/Egg game assets/level complete/HoldMYEgg Assets/Untitled-1 copy/Untitled-1 copy_00004.png
+  artifactKey: Guid(bf5c193ead1d3f54e896e1f43c1f442a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Assets/Custome Assets/Egg game assets/level complete/HoldMYEgg Assets/Untitled-1 copy/Untitled-1 copy_00004.png using Guid(bf5c193ead1d3f54e896e1f43c1f442a) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'c3354731fde381246543b50cc00dd127') in 0.037421 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/LunarConsole/Editor/iOS/Common/Controllers/Warning/LUExceptionWarningController.xib
+  artifactKey: Guid(5fd5c5bc0095649a385962675a241891) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LunarConsole/Editor/iOS/Common/Controllers/Warning/LUExceptionWarningController.xib using Guid(5fd5c5bc0095649a385962675a241891) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '281480d5b8f710adfe07488c646af5e0') in 0.032527 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Plugins/Pixelplacement/iTween/Sample/Sample.unity
+  artifactKey: Guid(17c6d1d46ed4a4cd19bb7f7a231386ba) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Plugins/Pixelplacement/iTween/Sample/Sample.unity using Guid(17c6d1d46ed4a4cd19bb7f7a231386ba) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'd315fc8ff00285a3c5f15d7e09faf387') in 0.0413654 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/_Assets/Custome Assets/gameplay sprite/background.png
+  artifactKey: Guid(37fa9f1c4cf0b8843b500d46603266e8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Assets/Custome Assets/gameplay sprite/background.png using Guid(37fa9f1c4cf0b8843b500d46603266e8) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'da2b47ed6dfcad88fcfa8c0ce0a2c635') in 0.0382164 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/LunarConsole/Editor/iOS/Common/Console/Plugin/LUUnityScriptMessenger.m
+  artifactKey: Guid(50b8bef2cacde42bc9aea83765de8c25) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LunarConsole/Editor/iOS/Common/Console/Plugin/LUUnityScriptMessenger.m using Guid(50b8bef2cacde42bc9aea83765de8c25) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '76254c6f015930b56a26fc48958efa27') in 0.0320999 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Lean/Common/Examples/Materials/Yellow.mat
+  artifactKey: Guid(c37be6ad65a89fb48889627465fcdf16) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Lean/Common/Examples/Materials/Yellow.mat using Guid(c37be6ad65a89fb48889627465fcdf16) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '258fdd4c9215c072e6eb70ccef6730c4') in 0.0282591 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Scenes/Levels/Level 32.unity
+  artifactKey: Guid(ffdea6974544d004da5ecc59716fff7f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes/Levels/Level 32.unity using Guid(ffdea6974544d004da5ecc59716fff7f) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '5219415ea031fd34fc26ea6ff4d19947') in 0.0281242 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/LunarConsole/Editor/iOS/Common/Images/lunar_console_icon_button_close@3x.png
+  artifactKey: Guid(3b1b846406d364ca488dbfd605a294ef) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LunarConsole/Editor/iOS/Common/Images/lunar_console_icon_button_close@3x.png using Guid(3b1b846406d364ca488dbfd605a294ef) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '9e1189a7435849dac2cd27db84455cb7') in 0.0332932 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000109 seconds.
+  path: Assets/Scenes/Levels/Level 54.unity
+  artifactKey: Guid(6bf1ed390ea8c58419091080b8111d18) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes/Levels/Level 54.unity using Guid(6bf1ed390ea8c58419091080b8111d18) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '538ba160b971c8c18c253dc387c959be') in 0.0368556 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/_Assets/Fonts/Poppins/poppins/Poppins-Medium.otf
+  artifactKey: Guid(97d013d61533ba64dac80d6d0874592b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Assets/Fonts/Poppins/poppins/Poppins-Medium.otf using Guid(97d013d61533ba64dac80d6d0874592b) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'f6e5abfe1583c86eb8b4de4900a057a0') in 0.0363688 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Scenes/Levels/Level 2.unity
+  artifactKey: Guid(3253950bf1c112b429985e2ff9492e1c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Scenes/Levels/Level 2.unity using Guid(3253950bf1c112b429985e2ff9492e1c) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'ed1f9523ec5f0f75d79b42c0c0f248fd') in 0.0301078 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/_Assets/Scripts/UI Scripts/OptionMenu.cs
+  artifactKey: Guid(adaef6b9649e6df43968e67d4b8fdf41) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Assets/Scripts/UI Scripts/OptionMenu.cs using Guid(adaef6b9649e6df43968e67d4b8fdf41) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'b0a6f25564d2c23e86704762f5bc16f4') in 0.0238078 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Lean/Common/Examples/Prefabs/Label.prefab
+  artifactKey: Guid(b06e85cdb86ff204aa4c8e276668b4c4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Lean/Common/Examples/Prefabs/Label.prefab using Guid(b06e85cdb86ff204aa4c8e276668b4c4) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'b950dbb8009c4483fe464556a701c44d') in 0.0520912 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/_Assets/Prefab/Bowls Prefabs/Bowls With Coins/pf_Blue Patrolling Bowls with coins.prefab
+  artifactKey: Guid(94c3a6d3a3d41414da39fe6e19438713) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/_Assets/Prefab/Bowls Prefabs/Bowls With Coins/pf_Blue Patrolling Bowls with coins.prefab using Guid(94c3a6d3a3d41414da39fe6e19438713) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'afb12c1f3ad674f871060ebe4d00bff3') in 0.0421959 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 34
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/LunarConsole/Editor/Compatibility.cs
+  artifactKey: Guid(f1b1621a313ce2a42ad2fe08aee9d4a3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/LunarConsole/Editor/Compatibility.cs using Guid(f1b1621a313ce2a42ad2fe08aee9d4a3) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '5e2b7915a737ef2f2f1f3f080599b29f') in 0.0287099 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader
+  artifactKey: Guid(dd89cf5b9246416f84610a006f916af7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader using Guid(dd89cf5b9246416f84610a006f916af7) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: '1887a695761cc7ca1bfcac9b5ebc299b') in 0.0266909 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Lean/Localization/GUIDE.asset
+  artifactKey: Guid(ec23661f2893424458ca8e19dd255fc6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5)
+Start importing Assets/Lean/Localization/GUIDE.asset using Guid(ec23661f2893424458ca8e19dd255fc6) Importer(2089858483,934ff659095e30574adcf32a4c2f97b5) (ScriptedImporter) -> (artifact id: 'f8f29c88b34dc5370840cc079add693e') in 0.0385487 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

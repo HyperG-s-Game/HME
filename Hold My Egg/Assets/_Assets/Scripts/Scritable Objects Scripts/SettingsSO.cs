@@ -1,34 +1,29 @@
 using System.IO;
 using UnityEngine;
-using System.Runtime.Serialization.Formatters.Binary;
+
 namespace WolfGamer.Hold_My_Eggs{
 
     [CreateAssetMenu(fileName = "Settings Data",menuName = "ScriptableObject/Settings Data")]
     public class SettingsSO : ScriptableObject {
-        public string savePath =  "settings.dat";    
+        public string savePath =  "settings.json";
         public SettingsData settingsData;
-
-
 
         [ContextMenu("Save")]
         public void Save(){
-            string data = JsonUtility.ToJson(settingsData,true);
-            BinaryFormatter formatter = new BinaryFormatter();
-            FileStream file = File.Create(string.Concat(Application.persistentDataPath,"/",savePath));
-            formatter.Serialize(file,data);
-            file.Close();
+            string json = JsonUtility.ToJson(settingsData, true);
+            File.WriteAllText(Path.Combine(Application.persistentDataPath, savePath), json);
         }
 
         [ContextMenu("Load")]
         public void Load(){
-            if(File.Exists((string.Concat(Application.persistentDataPath,"/",savePath)))){
-                BinaryFormatter formatter = new BinaryFormatter();
-                FileStream Stream = File.Open(string.Concat(Application.persistentDataPath,"/",savePath),FileMode.Open);
-                JsonUtility.FromJsonOverwrite(formatter.Deserialize(Stream).ToString(),settingsData);
-                Stream.Close();
+            string path = Path.Combine(Application.persistentDataPath, savePath);
+            if(File.Exists(path)){
+                string json = File.ReadAllText(path);
+                settingsData = JsonUtility.FromJson<SettingsData>(json);
             }
         }
     }
+
     [System.Serializable]
     public class SettingsData{
         public bool hasAdInGame = true;
@@ -37,5 +32,4 @@ namespace WolfGamer.Hold_My_Eggs{
         public int currentLanguageIndex;
         public string privacyPolicyURL = "";
     }
-    
 }
